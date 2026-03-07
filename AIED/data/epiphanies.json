@@ -1,0 +1,126 @@
+{
+    "COMBATANT_NAME": [
+        {
+            "CARD_NAME": [
+                {
+                    "cost": 0,
+                    "type": "",
+                    "effect": "",
+                    "_COMMENT": "Effect may be converted to array. DO NOT IMPLEMENT."
+                }
+            ]
+        }
+    ],
+    "Selena": [
+        {
+            "High-Power Scope": [
+                {
+                    "cost": 1,
+                    "type": "Skill",
+                    "effect": "2 Mark. If the Anticipated Action of the target is in an Attack state, add 2 Mark."
+                },
+                {
+                    "cost": 1,
+                    "type": "Upgrade",
+                    "effect": "When using an Attack Card, 1 Mark to the target."
+                },
+                {
+                    "cost": 1,
+                    "type": "Skill",
+                    "effect": "2 Mark. +50% Mark Damage for 1 turn."
+                },
+                {
+                    "cost": 0,
+                    "type": "Skill",
+                    "effect": "When another combatant's Attack Card is used, 100% Coordinated Attack for 1 turn."
+                },
+                {
+                    "cost": 1,
+                    "type": "Upgrade",
+                    "effect": "At the start of the turn, 1 Mark to all enemies."
+                }
+            ],
+            "Target Spotted": [
+                {
+                    "cost": 1,
+                    "type": "Attack",
+                    "effect": "100% Damage. Attunement: 200% Damage to a random enemy."
+                },
+                {
+                    "cost": 1,
+                    "type": "Attack",
+                    "effect": "150% Damage. 2 Mark. If the target is affected by Mark, +2 Mark."
+                },
+                {
+                    "cost": 1,
+                    "type": "Skill",
+                    "effect": "150% Shield. 2 Mark to all enemies."
+                },
+                {
+                    "cost": 1,
+                    "type": "Skill",
+                    "effect": "150% Shield. Attunement: Draw 1."
+                },
+                {
+                    "cost": 1,
+                    "type": "Upgrade",
+                    "effect": "On Ravage, 200% Coordinated Attack."
+                }
+            ],
+            "Drone Bombing": [
+                {
+                    "cost": 1,
+                    "type": "Attack",
+                    "effect": "120% Damage to all enemies, 2 Passion Weakness."
+                },
+                {
+                    "cost": 1,
+                    "type": "Attack",
+                    "effect": "120% Damage to all enemies. Combo: 2 Mark to all enemies."
+                },
+                {
+                    "cost": 0,
+                    "type": "Attack",
+                    "effect": "120% Damage to all enemies. +40% Damage per Passion Attack Card used this turn."
+                },
+                {
+                    "cost": 1,
+                    "type": "Attack",
+                    "effect": "For 1 turn, when performing a Attack Weakness, 100% chance to trigger Coordinated Attack on the target."
+                },
+                {
+                    "cost": 1,
+                    "type": "Upgrade",
+                    "effect": "When using a Passion Attack card, 50% Coordinated Attack to the target."
+                }
+            ],
+            "Tactical Maneuver": [
+                {
+                    "cost": 1,
+                    "type": "Skill",
+                    "effect": "225% Shield. 3 Tenacity Damage."
+                },
+                {
+                    "cost": 1,
+                    "type": "Attack",
+                    "effect": "150% Damage. Increase Tenacity Damage of this card by 150%."
+                },
+                {
+                    "cost": 1,
+                    "type": "Skill",
+                    "effect": "225% Shield. 2 Tenacity Damage. 2 Mark on enemies in Ravage state.​"
+                },
+                {
+                    "cost": 0,
+                    "type": "Skill",
+                    "effect": "[Retain] If the target is in Ravaged state, recharge Tenacity."
+                },
+                {
+                    "cost": 1,
+                    "type": "Skill",
+                    "effect": "1 Tenacity Damage to all enemies and 1 Mark."
+                }
+            ]
+        }
+    ]
+}
