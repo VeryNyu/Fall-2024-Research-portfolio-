@@ -1,0 +1,49 @@
+{
+"Combatant":
+    {
+        "id": null, 
+        "name": null,
+        "class": null,
+        "attribute": null,
+        "rarity": null,
+        "deck": null
+    },
+
+"Deck":
+    {
+        "id": null,
+        "skill": null,
+        "cards": null
+    },
+
+"Card":
+    {
+        "id": null,
+        "name": null,
+        "cost": null,
+        "effects": null,
+        "upgrades": null
+    },
+
+"Skill":
+    {
+        "id": null,
+        "name": null,
+        "cost": null,
+        "effects": null
+    },
+
+"Effect":
+    {
+        "id": null,
+        "name": null,
+        "description": null
+    },
+
+"Upgrade":
+    {
+        "id": null,
+        "cost": null,
+        "effects": null
+    }
+}
