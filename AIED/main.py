@@ -1,204 +1,232 @@
 from customtkinter import *
-from PIL import Image
 import pandas as pd
-import random
 import json
-import requests
-from tkinter import messagebox
-
-# #Configuration
-# BACKEND_URL = "http://localhost:5000/chatgpt"
+import os
+from tkinter import messagebox, filedialog
 
 set_appearance_mode("light")
 app = CTk()
-app.geometry("700x450")
-app.title("CSUSM Data Entry")
+app.geometry("800x550")
+app.title("Card Epiphany Selector")
 
-# student_data = pd.read_csv("Student ID DATA BASE(Sheet1).csv")
-# cs211_json_path = "CS211.json"
-# cs311_json_path = "CS311.json"
+# Load data
+BASE_DIR = r"C:\Users\Rick\Documents\Utah State(PhD)\Spr2026\AI in Apps\Fall-2024-Research-portfolio-\AIED\data"
 
-# current_question_index = 0
-# chosen_examples = {}
-# ratings = {}  # Store 1-5 star ratings per question
-# questions_data = []
+def load_json(filename):
+    with open(os.path.join(BASE_DIR, filename), "r") as f:
+        return json.load(f)
 
-# #AI Call
-# def call_ai(question, student_answer, examples):
-#     try:
-#         r = requests.post(
-#             BACKEND_URL,
-#             json={
-#                 "question": question,
-#                 "studentInput": student_answer,
-#                 "examples": examples
-#             },
-#             timeout=30
-#         )
-#         return r.json()["response"]
-#     except Exception as e:
-#         return f"AI Error: {e}"
+combatants  = load_json("combatants.json")
+epiphanies  = load_json("epiphanies.json")
+cards_data  = load_json("cards.json")
+skills_data = load_json("skills.json")
+decks_data  = load_json("decks.json")
 
-# #Rate Answer
-# def rate_answer(stars):
-#     ratings[current_question_index] = stars
-#     messagebox.showinfo(
-#         "Rating Saved",
-#         f"You rated Question {current_question_index + 1} as {stars} star(s)."
-#     )
+effects_df = pd.read_csv(
+    os.path.join(BASE_DIR, "effects.csv"),
+    header=None,
+    engine="python",
+    on_bad_lines="skip"
+)
+effects_df.columns = [f"col{i}" for i in range(len(effects_df.columns))]
+effects_df = effects_df.rename(columns={"col0": "name", "col1": "type", "col2": "description"})
 
-#main page
+# State
+selected_character = None
+selected_card      = None
+choice_index       = None   # which epiphany choice the player picked
+
+#Data Access
+def get_epiphany_cards(character: str) -> list[str]:
+    """Return card names that have epiphany options for this character."""
+    char_data = epiphanies.get(character, [])
+    names = []
+    for entry in char_data:
+        if isinstance(entry, dict):
+            names.extend(entry.keys())
+    return names
+
+def get_epiphany_options(character: str, card_name: str) -> list[dict]:
+    """Return the list of epiphany options for a given card."""
+    char_data = epiphanies.get(character, [])
+    for entry in char_data:
+        if isinstance(entry, dict) and card_name in entry:
+            return entry[card_name]
+    return []
+
 def create_main_page():
-    global name_entry, id_entry, check_211, check_311, main_frame
+    global char_var, card_var, main_frame
 
     main_frame = CTkFrame(app)
-    main_frame.pack(fill="both", expand=True, padx=20, pady=20)
+    main_frame.pack(fill="both", expand=True, padx=30, pady=30)
 
-    # logo = Image.open("Official_CSUSM_Logo.png").resize((200, 80))
-    # logo_img = CTkImage(logo, size=(200, 80))
-    # CTkLabel(main_frame, image=logo_img, text="").pack(pady=15)
+    CTkLabel(main_frame, text="Card Epiphany Selector",
+             font=CTkFont(size=22, weight="bold")).pack(pady=(10, 4))
+    CTkLabel(main_frame,
+             text="Choose a combatant and a card that has triggered an upgrade.",
+             font=CTkFont(size=13)).pack(pady=(0, 20))
 
-    name_entry = CTkEntry(main_frame, placeholder_text="Student Name")
-    name_entry.pack(pady=5)
+    # Character dropdown
+    CTkLabel(main_frame, text="Combatant", font=CTkFont(size=14, weight="bold")).pack()
+    char_var = StringVar(value="Select combatant…")
+    char_menu = CTkOptionMenu(
+        main_frame, variable=char_var,
+        values=list(combatants.keys()),
+        width=260, command=on_character_select
+    )
+    char_menu.pack(pady=(4, 16))
 
-    id_entry = CTkEntry(main_frame, placeholder_text="Student ID")
-    id_entry.pack(pady=5)
+    # Card dropdown (populated after character is chosen)
+    CTkLabel(main_frame, text="Card with Epiphany", font=CTkFont(size=14, weight="bold")).pack()
+    card_var = StringVar(value="Select card…")
+    global card_menu
+    card_menu = CTkOptionMenu(
+        main_frame, variable=card_var,
+        values=["Select combatant first"],
+        width=260
+    )
+    card_menu.pack(pady=(4, 24))
 
-    # check_211 = CTkCheckBox(main_frame, text="CS211")
-    # check_211.pack()
-    # check_311 = CTkCheckBox(main_frame, text="CS311")
-    # check_311.pack()
-
-    CTkButton(main_frame, text="Start", command=start).pack(pady=15)
-
-#start function
-def start():
-    # sid = id_entry.get()
-    # if sid not in student_data["studentID"].astype(str).values:
-    #     messagebox.showerror("Error", "Invalid Student ID")
-    #     return
-
-    # if check_211.get():
-    #     load_questions(cs211_json_path)
-    # elif check_311.get():
-    #     load_questions(cs311_json_path)
-    # else:
-    #     messagebox.showerror("Error", "Select course")
-    #     return
-
-    show_questions()
-
-# -------------------- LOAD QUESTIONS --------------------
-# def load_questions(path):
-#     global questions_data
-#     with open(path) as f:
-#         questions_data = json.load(f)["questions"]
+    CTkButton(main_frame, text="Show Epiphany Choices",
+              width=220, command=start_epiphany).pack(pady=6)
 
 
-def show_questions():
-    global left_display, left_input, right_display, next_btn
+def on_character_select(character: str):
+    options = get_epiphany_cards(character)
+    if options:
+        card_menu.configure(values=options)
+        card_var.set(options[0])
+    else:
+        card_menu.configure(values=["No epiphany cards found"])
+        card_var.set("No epiphany cards found")
+
+
+def start_epiphany():
+    global selected_character, selected_card
+    selected_character = char_var.get()
+    selected_card      = card_var.get()
+
+    if selected_character == "Select combatant…":
+        messagebox.showerror("Error", "Please select a combatant.")
+        return
+    if selected_card in ("Select card…", "Select combatant first", "No epiphany cards found"):
+        messagebox.showerror("Error", "Please select a valid card.")
+        return
+
+    options = get_epiphany_options(selected_character, selected_card)
+    if not options:
+        messagebox.showerror("Error", "No epiphany options found for this card.")
+        return
 
     main_frame.destroy()
-    frame = CTkFrame(app)
-    frame.pack(fill="both", expand=True)
+    show_epiphany_page(selected_character, selected_card, options)
 
-    #Left Fram
-    left = CTkFrame(frame)
-    left.pack(side="left", expand=True, fill="both")
-    left_display = CTkTextbox(left)
-    left_display.pack(expand=True, fill="both", padx=10, pady=5)
-    left_display.configure(state="disabled")
 
-    left_input = CTkTextbox(left)
-    left_input.pack(expand=True, fill="both", padx=10, pady=5)
+# ─────────────────────────── Epiphany Page ───────────────────────
+def show_epiphany_page(character: str, card_name: str, options: list[dict]):
+    outer = CTkFrame(app)
+    outer.pack(fill="both", expand=True, padx=20, pady=20)
 
-    next_btn = CTkButton(left, text="Next", command=next_question)
-    next_btn.pack(pady=10)
+    # ── Header ──
+    header_text = (
+        f"You are playing  {character}  and triggered an upgrade\n"
+        f"for  \"{card_name}\".\n\nHere are your choices:"
+    )
+    CTkLabel(outer, text=header_text,
+             font=CTkFont(size=15, weight="bold"),
+             justify="center").pack(pady=(10, 6))
 
-    #Right Frame
-    right = CTkFrame(frame)
-    right.pack(side="right", expand=True, fill="both")
-    right_display = CTkTextbox(right)
-    right_display.pack(expand=True, fill="both", padx=10, pady=5)
-    right_display.configure(state="disabled")
+    # ── Scrollable choice list ──
+    scroll = CTkScrollableFrame(outer)
+    scroll.pack(fill="both", expand=True, padx=10, pady=6)
 
-    #Rating Buttons
-    rating_frame = CTkFrame(right)
-    rating_frame.pack(pady=10, fill="x")
+    choice_frames = []
 
-    button_style = {"width": 40, "height": 30, "corner_radius": 20}
+    def select_choice(idx: int):
+        # Highlight selected, grey out others
+        for i, cf in enumerate(choice_frames):
+            color = "#2b7a4b" if i == idx else "#3a3a3a"
+            cf.configure(fg_color=color)
+        result_label.configure(
+            text=f"✔  You selected Choice {idx + 1}: {options[idx]['effect']}"
+        )
 
-    one_star_button = CTkButton(rating_frame, text="1 ★", **button_style, command=lambda: rate_answer(1))
-    one_star_button.grid(row=0, column=0, padx=2)
-    two_star_button = CTkButton(rating_frame, text="2 ★", **button_style, command=lambda: rate_answer(2))
-    two_star_button.grid(row=0, column=1, padx=2)
-    three_star_button = CTkButton(rating_frame, text="3 ★", **button_style, command=lambda: rate_answer(3))
-    three_star_button.grid(row=0, column=2, padx=2)
-    four_star_button = CTkButton(rating_frame, text="4 ★", **button_style, command=lambda: rate_answer(4))
-    four_star_button.grid(row=0, column=3, padx=2)
-    five_star_button = CTkButton(rating_frame, text="5 ★", **button_style, command=lambda: rate_answer(5))
-    five_star_button.grid(row=0, column=4, padx=2)
+    for i, opt in enumerate(options):
+        type_color = {
+            "Attack":  "#8b1a1a",
+            "Skill":   "#1a4a8b",
+            "Upgrade": "#5a3a8b",
+        }.get(opt.get("type", ""), "#3a3a3a")
 
-    for i in range(5):
-        rating_frame.grid_columnconfigure(i, weight=1)
+        cf = CTkFrame(scroll, corner_radius=10, fg_color="#3a3a3a")
+        cf.pack(fill="x", padx=6, pady=5)
+        choice_frames.append(cf)
 
-    # display_question(0)
+        # Number badge
+        CTkLabel(cf, text=str(i + 1),
+                 font=CTkFont(size=18, weight="bold"),
+                 width=36, text_color="white").grid(
+            row=0, column=0, rowspan=2, padx=(10, 4), pady=10)
 
-#Display question
-def display_question(i):
-    # q = questions_data[i]
-    # examples = chosen_examples.setdefault(
-    #     i, [random.choice(q.get("examples", [""])) for _ in q["question"].split("{}")[:-1]]
-    # )
-    # text = q["question"].format(*examples)
+        # Type pill
+        CTkLabel(cf,
+                 text=f"  {opt.get('type', '?')}  ",
+                 font=CTkFont(size=11, weight="bold"),
+                 text_color="white",
+                 fg_color=type_color,
+                 corner_radius=8,
+                 width=70).grid(row=0, column=1, sticky="w", padx=4, pady=(8, 2))
 
-    left_display.configure(state="normal")
-    left_display.delete("1.0", "end")
-    # left_display.insert("1.0", text)
-    left_display.configure(state="disabled")
-    left_input.delete("1.0", "end")  # Clear previous input
+        # Cost
+        cost_str = f"Cost: {opt.get('cost', '?')}"
+        CTkLabel(cf, text=cost_str,
+                 font=CTkFont(size=11),
+                 text_color="#cccccc").grid(row=0, column=2, sticky="w", padx=8, pady=(8, 2))
 
-#Next question
-def next_question():
-    # global current_question_index
+        # Effect text
+        CTkLabel(cf,
+                 text=opt.get("effect", ""),
+                 font=CTkFont(size=13),
+                 text_color="white",
+                 wraplength=560,
+                 justify="left").grid(row=1, column=1, columnspan=3,
+                                      sticky="w", padx=4, pady=(0, 8))
 
-    # answer = left_input.get("1.0", "end").strip()
-    # q = questions_data[current_question_index]
-    # examples = chosen_examples[current_question_index]
-    # question_text = q["question"].format(*examples)
+        # Select button
+        btn_idx = i
+        CTkButton(cf, text="Select", width=80,
+                  fg_color="#555", hover_color="#2b7a4b",
+                  command=lambda idx=btn_idx: select_choice(idx)).grid(
+            row=0, column=4, rowspan=2, padx=10, pady=10)
 
-    # feedback = call_ai(question_text, answer, examples)
+        cf.grid_columnconfigure(3, weight=1)
 
-    right_display.configure(state="normal")
-    right_display.delete("1.0", "end")
-    # right_display.insert("1.0", feedback)
-    right_display.configure(state="disabled")
+    # ── Result banner ──
+    result_label = CTkLabel(outer, text="",
+                            font=CTkFont(size=13, weight="bold"),
+                            text_color="#2db86a",
+                            wraplength=720, justify="center")
+    result_label.pack(pady=(4, 6))
 
-    # # Check if last question
-    # if current_question_index < len(questions_data) - 1:
-    #     current_question_index += 1
-    #     display_question(current_question_index)
-    # else:
-    #     # User finished all questions
-    #     messagebox.showinfo("Completed", "You have finished all questions!")
-    #     left_input.configure(state="disabled")
-    #     next_btn.configure(state="disabled")
-    #     show_restart_button()
+    # ── Bottom buttons ──
+    btn_row = CTkFrame(outer, fg_color="transparent")
+    btn_row.pack(pady=(2, 6))
 
-#Restart quiz Button 
-def show_restart_button():
-    restart_btn = CTkButton(app, text="Restart Quiz", command=restart_quiz)
-    restart_btn.pack(pady=10)
+    CTkButton(btn_row, text="← Back", width=130,
+              fg_color="#555", hover_color="#333",
+              command=lambda: [outer.destroy(), create_main_page()]).pack(
+        side="left", padx=8)
 
-def restart_quiz():
-    global current_question_index, chosen_examples, ratings
-    current_question_index = 0
-    chosen_examples = {}
-    ratings = {}
-    for widget in app.winfo_children():
-        widget.destroy()
+    CTkButton(btn_row, text="Confirm & Restart", width=160,
+              command=lambda: confirm_and_restart(outer)).pack(
+        side="left", padx=8)
+
+
+def confirm_and_restart(frame):
+    frame.destroy()
     create_main_page()
 
-#Initialize app
+
+# ─────────────────────────── Run ─────────────────────────────────
 create_main_page()
 app.mainloop()
