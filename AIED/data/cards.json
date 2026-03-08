@@ -1,4 +1,22 @@
 {
+    "Luke":[],
+    "Khalipe":[],
+    "Magna":[],
+    "Rin":[],
+    "Orlea":[],
+    "Mei Lin":[],
+    "Veronica":[],
+    "Renoa":[],
+    "Hugo":[],
+    "Yuki":[],
+    "Chizuru":[],
+    "Haru":[],
+    "Kayron":[],
+    "Nine":[],
+    "Serenial":[],
+    "Tiphera":[],
+    "Narja":[],
+    "Nia":[],
     "Selena": [
         {
             "name": "Engagement Fire",
@@ -56,5 +74,15 @@
             "effects": "[Unique] +80% Mark Damage",
             "epiphanies": false
         }
-    ]
+    ],
+    "Tressa":[],
+    "Amir":[],
+    "Lucas":[],
+    "Maribell":[],
+    "Mika":[],
+    "Beryl":[],
+    "Cassius":[],
+    "Owen":[],
+    "Rei":[],
+
 }
