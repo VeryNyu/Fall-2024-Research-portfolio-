@@ -1,6 +1,7 @@
 {
     "Selena": {
         "name": "Final Shot",
+        "cost": -1,
         "effects": [
             "300% Damage",
             "3 Mark"

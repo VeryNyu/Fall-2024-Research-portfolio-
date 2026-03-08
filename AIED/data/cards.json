@@ -4,56 +4,56 @@
             "name": "Engagement Fire",
             "cost": 1,
             "type": "Attack",
-            "effect": "100% Damage.",
+            "effects": "100% Damage.",
             "epiphanies": false
         },
         {
             "name": "High-Power Scope",
             "cost": 1,
             "type": "Skill",
-            "effect": "100% Damage.",
+            "effects": "100% Damage.",
             "epiphanies": false
         },
         {
             "name": "Emergency Shielding",
             "cost": 1,
             "type": "Skill",
-            "effect": "100% Shield.",
+            "effects": "100% Shield.",
             "epiphanies": false
         },
         {
             "name": "High-Power Scope",
             "cost": 1,
             "type": "Skill",
-            "effect": "2 Mark.",
+            "effects": "2 Mark.",
             "epiphanies": true
         },
         {
             "name": "Target Spotted",
             "cost": 1,
             "type": "Attack",
-            "effect": "150% Damage. Attunement: 1 Mark to random enemies.",
+            "effects": "150% Damage. Attunement: 1 Mark to random enemies.",
             "epiphanies": true
         },
         {
             "name": "Drone Bombing",
             "cost": 1,
             "type": "Attack",
-            "effect": "120% Damage to all enemies, 1 Passion Weakness.",
+            "effects": "120% Damage to all enemies, 1 Passion Weakness.",
             "epiphanies": true
         },
         {
             "name": "Tactical Maneuver",
             "cost": 1,
             "type": "Skill",
-            "effect": "150% Shield. 2 Tenacity Damage.",
+            "effects": "150% Shield. 2 Tenacity Damage.",
             "epiphanies": true
         },
         {
             "name": "Sniper's Domain",
             "cost": 0,
             "type": "Upgrade",
-            "effect": "[Unique] +80% Mark Damage",
+            "effects": "[Unique] +80% Mark Damage",
             "epiphanies": false
         }
     ]

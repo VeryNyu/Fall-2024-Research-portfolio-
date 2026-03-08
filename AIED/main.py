@@ -1,10 +1,12 @@
 from customtkinter import *
 from PIL import Image
+import data.jsonHandling as JH
 import pandas as pd
 import random
-import json
 import requests
 from tkinter import messagebox
+
+import test as T
 
 # #Configuration
 # BACKEND_URL = "http://localhost:5000/chatgpt"
@@ -14,9 +16,13 @@ app = CTk()
 app.geometry("700x450")
 app.title("CSUSM Data Entry")
 
+json_files = JH.load_all_json()
+
 # student_data = pd.read_csv("Student ID DATA BASE(Sheet1).csv")
 # cs211_json_path = "CS211.json"
 # cs311_json_path = "CS311.json"
+
+T.print_dict(json_files)
 
 # current_question_index = 0
 # chosen_examples = {}
@@ -200,5 +206,5 @@ def restart_quiz():
     create_main_page()
 
 #Initialize app
-create_main_page()
-app.mainloop()
+# create_main_page()
+# app.mainloop()
