@@ -1,5 +1,86 @@
 {
-    "Selena": {
+    "Luke": {
+        "id": 1
+    },
+    "Khalipe": {
+        "id": 2
+    },
+    "Magna": {
+        "id": 3
+    },
+    "Rin": {
+        "id": 4
+    },
+    "Orlea": {
+        "id": 5
+    },
+    "Mei Lin": {
+        "id": 6
+    },
+    "Veronica": {
+        "id": 7
+    },
+    "Renoa": {
+        "id": 8
+    },
+    "Hugo": {
+        "id": 9
+    },
+    "Yuki": {
+        "id": 10
+    },
+    "Chizuru": {
+        "id": 11
+    },
+    "Haru": {
+        "id": 12
+    },
+    "Kayron": {
+        "id": 13
+    },
+    "Nine": {
+        "id": 14
+    },
+    "Serenial": {
+        "id": 15
+    },
+    "Tiphera": {
+        "id": 16
+    },
+    "Narja": {
+        "id": 17
+    },
+    "Nia": {
         "id": 18
+    },
+    "Selena": {
+        "id": 19
+    },
+    "Tressa": {
+        "id": 20
+    },
+    "Amir": {
+        "id": 21
+    },
+    "Lucas": {
+        "id": 22
+    },
+    "Maribell": {
+        "id": 23
+    },
+    "Mika": {
+        "id": 24
+    },
+    "Beryl": {
+        "id": 25
+    },
+    "Cassius": {
+        "id": 26
+    },
+    "Owen": {
+        "id": 27
+    },
+    "Rei": {
+        "id": 28
     }
 }
