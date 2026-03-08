@@ -136,7 +136,7 @@ def show_epiphany_page(character: str, card_name: str, options: list[dict]):
              font=CTkFont(size=15, weight="bold"),
              justify="center").pack(pady=(10, 6))
 
-    # ── Scrollable choice list ──
+    # Scrollable choice list
     scroll = CTkScrollableFrame(outer)
     scroll.pack(fill="both", expand=True, padx=10, pady=6)
 
@@ -201,14 +201,14 @@ def show_epiphany_page(character: str, card_name: str, options: list[dict]):
 
         cf.grid_columnconfigure(3, weight=1)
 
-    # ── Result banner ──
+    # Result banner
     result_label = CTkLabel(outer, text="",
                             font=CTkFont(size=13, weight="bold"),
                             text_color="#2db86a",
                             wraplength=720, justify="center")
     result_label.pack(pady=(4, 6))
 
-    # ── Bottom buttons ──
+    # Bottom buttons 
     btn_row = CTkFrame(outer, fg_color="transparent")
     btn_row.pack(pady=(2, 6))
 
@@ -227,6 +227,6 @@ def confirm_and_restart(frame):
     create_main_page()
 
 
-# ─────────────────────────── Run ─────────────────────────────────
+
 create_main_page()
 app.mainloop()
