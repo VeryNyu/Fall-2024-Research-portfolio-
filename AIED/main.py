@@ -22,8 +22,16 @@ json_files = JH.load_all_json()
 # cs211_json_path = "CS211.json"
 # cs311_json_path = "CS311.json"
 
-T.print_dict(json_files)
-
+# T.print_dict(json_files)
+combatant = JH.pick_random_key(json_files["combatants_data"])
+deck = json_files["decks_data"][combatant]["cards"]
+epiphanies = dict()
+for key, value in json_files["epiphanies_data"][combatant].items():
+    epiphanies.update({key: value})
+sample = dict()
+for key, value in epiphanies.items():
+    sample[key] = JH.pick_random_sample(value, 3)
+T.print_dict(sample)
 # current_question_index = 0
 # chosen_examples = {}
 # ratings = {}  # Store 1-5 star ratings per question

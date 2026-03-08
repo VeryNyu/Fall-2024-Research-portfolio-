@@ -1,5 +1,3 @@
-import pprint
-
 def print_dict(d, indent=0):
     for k, v in d.items():
         print(' ' * indent + f'{k}:', end=' ')
