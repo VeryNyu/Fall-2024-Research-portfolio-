@@ -894,6 +894,6 @@
             {"cost": 1,"type": "Skill", "effect": ""},
             {"cost": 1,"type": "Skill", "effect": ""},
             {"cost": 1,"type": "Upgrade", "effect": ""}
-        ],
+        ]
     }
 }

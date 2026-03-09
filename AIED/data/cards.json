@@ -1372,7 +1372,7 @@
             "type": "Skill",
             "effects": "",
             "epiphanies": false
-        },
+        }
     ],
     "Owen":[
         {
@@ -1474,6 +1474,6 @@
             "type": "Attack",
             "effects": "",
             "epiphanies": false
-        },
+        }
     ]
 }
