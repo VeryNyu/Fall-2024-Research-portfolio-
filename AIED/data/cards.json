@@ -465,6 +465,57 @@
             "epiphanies": false
         }
     ],
+    "Narja":[
+        {
+            "name": "NA: Attack Response",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Defense-Based Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "NA: Defense Response",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Heal 132%, 2 Voracity",
+            "epiphanies": false
+        },
+        {
+            "name": "Shackles of Hunger",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Bottomless Hunger",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Voluntary Control",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Domain of Voracity",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Mealtime",
+            "cost": 6,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
     "Yuki":[
         {
             "name": "Longsword Slash",
@@ -835,57 +886,6 @@
             "effects": "",
             "epiphanies": false
     }
-    ],
-    "Narja":[
-        {
-            "name": "NA: Attack Response",
-            "cost": 1,
-            "type": "Attack",
-            "effects": "120% Defense-Based Damage",
-            "epiphanies": false
-        },
-        {
-            "name": "NA: Defense Response",
-            "cost": 1,
-            "type": "Skill",
-            "effects": "Heal 132%, 2 Voracity",
-            "epiphanies": false
-        },
-        {
-            "name": "Shackles of Hunger",
-            "cost": 1,
-            "type": "Attack",
-            "effects": "",
-            "epiphanies": true
-        },
-        {
-            "name": "Bottomless Hunger",
-            "cost": 0,
-            "type": "Skill",
-            "effects": "",
-            "epiphanies": true
-        },
-        {
-            "name": "Voluntary Control",
-            "cost": 1,
-            "type": "Skill",
-            "effects": "",
-            "epiphanies": true
-        },
-        {
-            "name": "Domain of Voracity",
-            "cost": 1,
-            "type": "Attack",
-            "effects": "",
-            "epiphanies": true
-        },
-        {
-            "name": "Mealtime",
-            "cost": 6,
-            "type": "Attack",
-            "effects": "",
-            "epiphanies": false
-        }
     ],
     "Nia":[
         {

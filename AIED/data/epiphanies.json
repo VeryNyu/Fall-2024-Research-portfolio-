@@ -1,57 +1,525 @@
 {
     "Luke": {
-        "": [{}, {}, {}, {}]
+        "Rapid Fire": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Stealth Reload": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""}
+        ],
+        "Seize the Opportunity": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Dance of the Demon": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""}]
     },
     "Khalipe": {
-        "": [{}, {}, {}, {}]
+        "Vulture Ejection": [
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Skill", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""}
+        ],
+        "Greatsword Aquils": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Overpower": [
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""}
+        ],
+        "Rally": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}]
     },
     "Magna": {
-        "": [{}, {}, {}, {}]
+        "Ice Fragment": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""}
+        ],
+        "Glaciel Iron Fist": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Ice Wall": [
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""}
+        ],
+        "Frost Charge": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}]
     },
     "Rin": {
-        "": [{}, {}, {}, {}]
+        "Drawing Slash": [
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Dark Mist Secret Art: Destruction": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Dark Mist Secret Art: Annihiliation": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Dark Mist Inner Art": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Orlea": {
-        "": [{}, {}, {}, {}]
+        "Sacred Censer": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Growth Acceleration": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Annoying": [
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Growing Creature": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}]
     },
     "Mei Lin": {
-        "": [{}, {}, {}, {}]
+        "Flame Dragon's Jewel": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Rising Dragon Spire": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Unity of Attack and Defense": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Spirit of the Aromata": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}]
     },
     "Veronica": {
-        "": [{}, {}, {}, {}]
+        "Firing Preparation": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Repose": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Pendant of Resolution": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Sir Kowalski": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}]
     },
     "Renoa": {
-        "": [{}, {}, {}, {}]
+        "Echo of Sorrow": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Instant Judgement": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Ballad of Pitch Black": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Flower of Devoured Fate": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}]
     },
     "Hugo": {
-        "": [{}, {}, {}, {}]
+        "Hunting Instincts": [
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Fan of Daggers": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Quick Fix": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Dingo Howling": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}]
+        },
+    "Narja": {
+        "Shackles of Hunger": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Bottomless Hunger": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Voluntary Control": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Domain of Voracity": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Yuki": {
-        "": [{}, {}, {}, {}]
+        "Prepare to Subdue": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Flash Slash": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""}
+        ],
+        "Trickery Strike": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Freezing Blade": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Chizuru": {
-        "": [{}, {}, {}, {}]
+        "Karmic Flames": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Tsukuyomi": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Bound At Dusk": [
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Oni Hunt": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Haru": {
-        "": [{}, {}, {}, {}]
+        "Anchor Shot": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Anchor Point": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Power Charge": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Charge Energy": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""}]
     },
     "Kayron": {
-        "": [{}, {}, {}, {}]
+        "Echo of Futility": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": "X","type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""}
+        ],
+        "Brand of Annihilation": [
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 7,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Black Hole": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Oath of Vanity": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""}]
     },
     "Nine": {
-        "": [{}, {}, {}, {}]
+        "Hew": [
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""}
+        ],
+        "Experience Strike": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Fatal Strike": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 5,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Counterblade": [
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Serenial": {
-        "": [{}, {}, {}, {}]
+        "Homing Laser": [
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""}
+        ],
+        "Plasma Missle": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Shining Core": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": "X","type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Cobalt Light": [
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""}]
     },
     "Tiphera": {
-        "": [{}, {}, {}, {}]
-    },
-    "Narja": {
-        "": [{}, {}, {}, {}]
+        "Quantum Seed": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Form Convergence": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Creation and Destruction": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 5,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 5,"type": "Attack", "effect": ""}
+        ],
+        "Dual Creation": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Nia": {
-        "": [{}, {}, {}, {}]
+        "G Chord": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""}
+        ],
+        "Mute Accent": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Soul Rip": [
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Adagio": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 3,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}]
     },
     "Selena":{
         "High-Power Scope": [
@@ -80,6 +548,7 @@
                 "type": "Upgrade",
                 "effect": "At the start of the turn, 1 Mark to all enemies."
             }
+        
         ],
         "Target Spotted": [
             {
@@ -107,6 +576,7 @@
                 "type": "Upgrade",
                 "effect": "On Ravage, 200% Coordinated Attack."
             }
+        
         ],
         "Drone Bombing": [
             {
@@ -134,6 +604,7 @@
                 "type": "Upgrade",
                 "effect": "When using a Passion Attack card, 50% Coordinated Attack to the target."
             }
+        
         ],
         "Tactical Maneuver": [
             {
@@ -164,30 +635,265 @@
         ]
     },
     "Tressa": {
-        "": [{}, {}, {}, {}]
+        "Unsheathe Dagger": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Curse": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Shadow Reload": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": "X","type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Vital Attack": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}]
     },
     "Amir": {
-        "": [{}, {}, {}, {}]
+        "Hovering Attack": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Metal Pierce": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Metal Extraction": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Full Metal Hurricane": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}]
     },
     "Lucas": {
-        "": [{}, {}, {}, {}]
+        "Extended Magazine": [
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "S.S.S.": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Flame Thrower": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Flashbang": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Maribell": {
-        "": [{}, {}, {}, {}]
+        "Resoute Blitz": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Maribell Shelter MK.II": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""}
+        ],
+        "Wolves' Dome": [
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}
+        ],
+        "Oh... I see": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Mika": {
-        "": [{}, {}, {}, {}]
+        "Source of Water": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Blessing of Waves": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Tactical Analysis": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""}
+        ],
+        "Whirlpool": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 4,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}]
     },
     "Beryl": {
-        "": [{}, {}, {}, {}]
+        "Opening Found": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
+        "Charged Shot": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 3,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Guilty Pleasure": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Unlimited Firepower": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}]
     },
     "Cassius": {
-        "": [{}, {}, {}, {}]
+        "Pop Eyed Popper": [
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Upgrade", "effect": ""}
+        ],
+        "Devil Dice": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""}
+        ],
+        "Shuffle": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Dice Trick": [
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""}]
     },
     "Owen": {
-        "": [{}, {}, {}, {}]
+        "Wind Charge": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}
+        ],
+        "Wind Slash": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""},
+            {"cost": 2,"type": "Upgrade", "effect": ""},
+            {"cost": 2,"type": "Attack", "effect": ""}
+        ],
+        "Break Armor": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 0,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""}
+        ],
+        "Wind Riding": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""}]
     },
     "Rei": {
-        "": [{}, {}, {}, {}]
+        "Strike of Darkness": [
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Attack", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Resonating Darkness": [
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Snack Time": [
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""},
+            {"cost": 0,"type": "Skill", "effect": ""}
+        ],
+        "Dark Condensation": [
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Skill", "effect": ""},
+            {"cost": 1,"type": "Upgrade", "effect": ""}
+        ],
     }
 }
