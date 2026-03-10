@@ -1,59 +1,1478 @@
 {
+    "Luke":[
+        {
+            "name": "Single Shot",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "100% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Shadow Concealment",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "100% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Rapid Fire",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Stealth Reload",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dance of the Demon",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Finisher Round",
+            "cost": null,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Khalipe":[
+        {
+            "name": "Lashing",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Defense-Based Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Upward Slash",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "216% Defense-Based Damage to all enemies",
+            "epiphanies": false
+        },
+        {
+            "name": "Tyr's Vow",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Vulture Ejection",
+            "cost": 3,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Greatsword Aquila",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Overpower",
+            "cost": 2,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Rally",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Absolute Protection",
+            "cost": "X",
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Magna":[
+        {
+            "name": "Frozen Fist",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Defense-Based Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Frost Shield",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "132% Shield, 1 Counterattack",
+            "epiphanies": false
+        },
+        {
+            "name": "Ice Fragment",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Glacial Iron Fist",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Ice Wall",
+            "cost": 2,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Frost Charge",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Storm of Bitter Cold",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Rin":[
+        {
+            "name": "Dark Mist Sword: First Form",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "132% Damage Gain Dark Mist Stance",
+            "epiphanies": false
+        },
+        {
+            "name": "Dark Mist Sword: Third Form",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "276% Damage Gain Dark Mist Stance",
+            "epiphanies": false
+        },
+        {
+            "name": "Protection",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Drawing Slash",
+            "cost": 0,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dark Mist Secret Art: Destruction",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dark Mist Secret Art: Annihilation",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dark Mist Inner Art",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dark Mist Secret Art: Black Dance",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Orlea":[
+        {
+            "name": "Attack, My Minions",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Healing of Light",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Heal Has 50% Chance to create 1 Light Creation",
+            "epiphanies": false
+        },
+        {
+            "name": "Sacred Censer",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Growth Acceleration",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Annoying",
+            "cost": 0,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Growing Creature",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Will of Light",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Mei Lin":[
+        {
+            "name": "Strike",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "116% Damage, 1 Ember",
+            "epiphanies": false
+        },
+        {
+            "name": "Flame Dragon Guardian",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "116% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Flame Dragon's Jewel",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Rising Dragon Spire",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Unity of Attack and Defense",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Spirit of the Aromata",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Flame Dragon's Sovereignty",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Veronica":[
+        {
+            "name": "Rapid Fire",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "106% Damage 20% Chance to create 1 Ballista card",
+            "epiphanies": false
+        },
+        {
+            "name": "Illusion of Golden Daffodils",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "106% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Firing Preperation",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Repose",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Pendant of Resolution",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Sir Kowalski",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Bombardment Prep",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Renoa":[
+        {
+            "name": "Annihilation Shot",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Black Veil",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Echo of Sorrow",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Instant Judgement",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Ballad of Pitch Black",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Flower of Devoured Fate",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Last-Ditch Assault",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Hugo":[
+        {
+            "name": "Throw Dagger",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "100% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Defense System",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "100% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Hunting Instincts",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Fan of Daggers",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Quick Fix",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dingo Howling",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Fixer's Approach",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Narja":[
+        {
+            "name": "NA: Attack Response",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Defense-Based Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "NA: Defense Response",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Heal 132%, 2 Voracity",
+            "epiphanies": false
+        },
+        {
+            "name": "Shackles of Hunger",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Bottomless Hunger",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Voluntary Control",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Domain of Voracity",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Mealtime",
+            "cost": 6,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Yuki":[
+        {
+            "name": "Longsword Slash",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "132% Damage, Inspiration: Decrease Cost by 1",
+            "epiphanies": false
+        },
+        {
+            "name": "Rapid Slash",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "276% Damage, Inspiration: Increase Damage Amount by 30%",
+            "epiphanies": false
+        },
+        {
+            "name": "Flowing Parry",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Prepare to Subdue",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Flash Slash",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Trickery Strike",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Freezing Blade",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Iceberg Cleave",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Chizuru":[
+        {
+            "name": "Moonslash",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "72% Damage x 2",
+            "epiphanies": false
+        },
+        {
+            "name": "Spiritflame's Ward",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Karmix Flames",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Tsukuyomi",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Bound At Dusk",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Oni Hunt",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Shadow of the Moon",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Haru":[
+        {
+            "name": "Anchor",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "156% Damage, +10% Damage Amount to Anchor Shot",
+            "epiphanies": false
+        },
+        {
+            "name": "Power Anchor",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "300% Damage, +10% Damage Amount to Anchor Shot",
+            "epiphanies": false
+        },
+        {
+            "name": "Anchor Drop",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Anchor Shot",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Anchor Pointer",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Power Charge",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Charge Energy",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Lift Anchor",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Kayron":[
+        {
+            "name": "Elimination",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "100% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Sphere",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Heal 100%",
+            "epiphanies": false
+        },
+        {
+            "name": "Echo of Futility",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Brand of Annihilation",
+            "cost": 3,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Black Hole",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Oath of Vanity",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Echoes of True Abyss",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Nine":[
+        {
+            "name": "Slash",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "156% Defense-Based Damage. Increase Damage Amount of Exhaust cards by 15% for 1 turn (Max 2 stacks)",
+            "epiphanies": false
+        },
+        {
+            "name": "Back-Edge Parry",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Hew",
+            "cost": 3,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Experienced Strike",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Fatal Strike",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Counterblade",
+            "cost": 0,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Fighting Spirit",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Serenial":[
+        {
+            "name": "Pulse Fire",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "132% Damage, 50% Chance to create 1 Homing Laser L",
+            "epiphanies": false
+        },
+        {
+            "name": "Magnetic Field",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "120% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Homing Laser",
+            "cost": 0,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Plasma Missile",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Shining Core",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Cobalt Light",
+            "cost": 3,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Pale Shooting Star",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Tiphera":[
+        {
+            "name": "Matter Disintegration",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Defense-Based Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Barrier Deployment",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Heal 84%, 84% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Quantum Seed",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Form Convergence",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Creation and Destruction",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dual Creation",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Event Horizon",
+            "cost": 2,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+    }
+    ],
+    "Nia":[
+        {
+            "name": "Stroke",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "132% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Amp Therapy",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "132% Heal",
+            "epiphanies": false
+        },
+        {
+            "name": "G Chord",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Mute Accent",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Soul Rip",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Adagio",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Nia's Curiosity",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
     "Selena": [
         {
             "name": "Engagement Fire",
             "cost": 1,
             "type": "Attack",
-            "effect": "100% Damage.",
+            "effects": "100% Damage",
             "epiphanies": false
         },
         {
             "name": "High-Power Scope",
             "cost": 1,
             "type": "Skill",
-            "effect": "100% Damage.",
+            "effects": "100% Damage",
             "epiphanies": false
         },
         {
             "name": "Emergency Shielding",
             "cost": 1,
             "type": "Skill",
-            "effect": "100% Shield.",
+            "effects": "100% Shield",
             "epiphanies": false
         },
         {
             "name": "High-Power Scope",
             "cost": 1,
             "type": "Skill",
-            "effect": "2 Mark.",
+            "effects": "2 Mark",
             "epiphanies": true
         },
         {
             "name": "Target Spotted",
             "cost": 1,
             "type": "Attack",
-            "effect": "150% Damage. Attunement: 1 Mark to random enemies.",
+            "effects": "150% Damage Attunement: 1 Mark to random enemies",
             "epiphanies": true
         },
         {
             "name": "Drone Bombing",
             "cost": 1,
             "type": "Attack",
-            "effect": "120% Damage to all enemies, 1 Passion Weakness.",
+            "effects": "120% Damage to all enemies, 1 Passion Weakness",
             "epiphanies": true
         },
         {
             "name": "Tactical Maneuver",
             "cost": 1,
             "type": "Skill",
-            "effect": "150% Shield. 2 Tenacity Damage.",
+            "effects": "150% Shield 2 Tenacity Damage",
             "epiphanies": true
         },
         {
             "name": "Sniper's Domain",
             "cost": 0,
             "type": "Upgrade",
-            "effect": "[Unique] +80% Mark Damage",
+            "effects": "[Unique] +80% Mark Damage",
+            "epiphanies": false
+        }
+    ],
+    "Tressa":[
+        {
+            "name": "Dagger Throw",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "120% Damage, 2 Agony",
+            "epiphanies": false
+        },
+        {
+            "name": "Touch of Darkness",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Heal 120%",
+            "epiphanies": false
+        },
+        {
+            "name": "Unsheathe Dagger",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Curse",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Shadow Reload",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Vital Attack",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Cursed Gouge",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Amir":[
+        {
+            "name": "Rapier",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "132% Defense-Based Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Steel Barrier",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "132% Shield, 1 Metallize",
+            "epiphanies": false
+        },
+        {
+            "name": "Hovering Metal",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Metal Pierce",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Metal Extraction",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Full Metal Hurricane",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Iron Skin",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Lucas":[
+        {
+            "name": "Machine Gun",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "112% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Shielding Incendiary Bomb",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "112% Shield",
+            "epiphanies": false
+        },
+        {
+            "name": "Extended Magazine",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "S.S.S",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Flame Thrower",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Flashbang",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "R.P.G-7",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Maribell":[
+        {
+            "name": "Shelter Kick",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Shelter Defense",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Shelter Hold",
+            "cost": 2,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Resolute Blitz",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Maribell Shelter MK.II",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Wolves' Dome",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Oh... I see",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Shelter Strike",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Mika":[
+        {
+            "name": "Water Arrow",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Water Barrier",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Source of Water",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Blessing of Waves",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Tactical Analysis",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Whirlpool",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Deluge",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Beryl":[
+        {
+            "name": "Launcher",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Charge Launcher",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Barrier",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Opening Found",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Charged Shot",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Guilty Pleasure",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Unlimited Firepower",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Heavy Weapons Specialist",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Cassius":[
+        {
+            "name": "Cards",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Wild Card",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Mana Field",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Pop Eyed Popper",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Devil Dice",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Shuffle",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dice Trick",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Joker",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Owen":[
+        {
+            "name": "Downward Cut",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Weapon Block",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Wind Charge",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Wind Slash",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Break Armor",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Wind Riding",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Gale Strike",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        }
+    ],
+    "Rei":[
+        {
+            "name": "Dark Blade",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Material Regeneration",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": false
+        },
+        {
+            "name": "Strike of Darkness",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Resonating Darkness",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Snack Time",
+            "cost": 0,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Dark Condensation",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "",
+            "epiphanies": true
+        },
+        {
+            "name": "Predator's Blade",
+            "cost": 1,
+            "type": "Attack",
+            "effects": "",
             "epiphanies": false
         }
     ]

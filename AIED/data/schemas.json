@@ -1,49 +1,46 @@
 {
 "Combatant":
     {
-        "id": null, 
-        "name": null,
-        "class": null,
-        "attribute": null,
-        "rarity": null,
-        "deck": null
+        "name": "",
+        "id": -1,
+        "_class": "",
+        "_attribute": "",
+        "_rarity": -1,
+        "deck": {}
     },
 
 "Deck":
     {
-        "id": null,
-        "skill": null,
-        "cards": null
+        "skill": {},
+        "cards": [""]
+    },
+
+"_Skill":
+    {
+        "name": "",
+        "cost": -1,
+        "effects": [""]
     },
 
 "Card":
     {
-        "id": null,
-        "name": null,
-        "cost": null,
-        "effects": null,
-        "upgrades": null
+        "name": "",
+        "cost": -1,
+        "type": "",
+        "effects": [""],
+        "epiphanies": false
     },
-
-"Skill":
+    
+"Epiphany":
     {
-        "id": null,
-        "name": null,
-        "cost": null,
-        "effects": null
+        "cost": -1,
+        "type": "",
+        "effects": [""]
     },
-
+    
 "Effect":
-    {
-        "id": null,
-        "name": null,
-        "description": null
-    },
-
-"Upgrade":
-    {
-        "id": null,
-        "cost": null,
-        "effects": null
-    }
+        {
+            "name": "",
+            "description": ""
+        }
 }

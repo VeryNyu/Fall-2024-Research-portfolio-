@@ -1,4 +1,67 @@
 from customtkinter import *
+from PIL import Image
+import data.jsonHandling as JH
+import pandas as pd
+import random
+import requests
+from tkinter import messagebox
+
+import test as T
+
+# #Configuration
+# BACKEND_URL = "http://localhost:5000/chatgpt"
+
+set_appearance_mode("light")
+app = CTk()
+app.geometry("700x450")
+app.title("CSUSM Data Entry")
+
+json_files = JH.load_all_json()
+
+# student_data = pd.read_csv("Student ID DATA BASE(Sheet1).csv")
+# cs211_json_path = "CS211.json"
+# cs311_json_path = "CS311.json"
+
+# T.print_dict(json_files)
+combatant = JH.pick_random_key(json_files["combatants_data"])
+deck = json_files["decks_data"][combatant]["cards"]
+epiphanies = dict()
+for key, value in json_files["epiphanies_data"][combatant].items():
+    epiphanies.update({key: value})
+sample = dict()
+for key, value in epiphanies.items():
+    sample[key] = JH.pick_random_sample(value, 3)
+T.print_dict(sample)
+# current_question_index = 0
+# chosen_examples = {}
+# ratings = {}  # Store 1-5 star ratings per question
+# questions_data = []
+
+# #AI Call
+# def call_ai(question, student_answer, examples):
+#     try:
+#         r = requests.post(
+#             BACKEND_URL,
+#             json={
+#                 "question": question,
+#                 "studentInput": student_answer,
+#                 "examples": examples
+#             },
+#             timeout=30
+#         )
+#         return r.json()["response"]
+#     except Exception as e:
+#         return f"AI Error: {e}"
+
+# #Rate Answer
+# def rate_answer(stars):
+#     ratings[current_question_index] = stars
+#     messagebox.showinfo(
+#         "Rating Saved",
+#         f"You rated Question {current_question_index + 1} as {stars} star(s)."
+#     )
+
+#main page
 import pandas as pd
 import json
 import os
@@ -226,6 +289,9 @@ def confirm_and_restart(frame):
     frame.destroy()
     create_main_page()
 
+#Initialize app
+# create_main_page()
+# app.mainloop()
 
 
 create_main_page()
