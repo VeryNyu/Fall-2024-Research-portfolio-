@@ -9,28 +9,26 @@ import test as T
 # #Configuration
 # BACKEND_URL = "http://localhost:5000/chatgpt"
 
-set_appearance_mode("light")
-app = CTk()
-app.geometry("800x550")
-
 
 #main page
 set_appearance_mode("light")
 app = CTk()
+app.geometry("800x550")
 app.title("Card Epiphany Selector")
+
 
 # Load data
 PROTO_DATA  = DH.load_json("epiphanies.json")   # Raw epiphany data keyed by character
-
 effects_df = DH.load_csv("effects.csv")
-
 effects_df.columns = [f"col{i}" for i in range(len(effects_df.columns))]
 effects_df = effects_df.rename(columns={"col0": "name", "col1": "type", "col2": "description"})
+
 
 # State
 selected_character = None
 selected_card      = None
 choice_index       = None   # which epiphany choice the player picked
+
 
 #Data Access
 def get_epiphany_cards(character: str) -> list[str]:
