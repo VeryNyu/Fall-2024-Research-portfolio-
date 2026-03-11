@@ -1,121 +1,49 @@
 from customtkinter import *
 from PIL import Image
-import data.jsonHandling as JH
-import pandas as pd
-import random
+from data import DataHandling as DH
 import requests
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 
 import test as T
 
 # #Configuration
 # BACKEND_URL = "http://localhost:5000/chatgpt"
 
-set_appearance_mode("light")
-app = CTk()
-app.geometry("700x450")
-app.title("CSUSM Data Entry")
-
-json_files = JH.load_all_json()
-
-# student_data = pd.read_csv("Student ID DATA BASE(Sheet1).csv")
-# cs211_json_path = "CS211.json"
-# cs311_json_path = "CS311.json"
-
-# T.print_dict(json_files)
-combatant = JH.pick_random_key(json_files["combatants_data"])
-deck = json_files["decks_data"][combatant]["cards"]
-epiphanies = dict()
-for key, value in json_files["epiphanies_data"][combatant].items():
-    epiphanies.update({key: value})
-sample = dict()
-for key, value in epiphanies.items():
-    sample[key] = JH.pick_random_sample(value, 3)
-T.print_dict(sample)
-# current_question_index = 0
-# chosen_examples = {}
-# ratings = {}  # Store 1-5 star ratings per question
-# questions_data = []
-
-# #AI Call
-# def call_ai(question, student_answer, examples):
-#     try:
-#         r = requests.post(
-#             BACKEND_URL,
-#             json={
-#                 "question": question,
-#                 "studentInput": student_answer,
-#                 "examples": examples
-#             },
-#             timeout=30
-#         )
-#         return r.json()["response"]
-#     except Exception as e:
-#         return f"AI Error: {e}"
-
-# #Rate Answer
-# def rate_answer(stars):
-#     ratings[current_question_index] = stars
-#     messagebox.showinfo(
-#         "Rating Saved",
-#         f"You rated Question {current_question_index + 1} as {stars} star(s)."
-#     )
 
 #main page
-import pandas as pd
-import json
-import os
-from tkinter import messagebox, filedialog
-
 set_appearance_mode("light")
 app = CTk()
 app.geometry("800x550")
 app.title("Card Epiphany Selector")
 
+
 # Load data
-BASE_DIR = r"C:\Users\Rick\Documents\Utah State(PhD)\Spr2026\AI in Apps\Fall-2024-Research-portfolio-\AIED\data"
-
-def load_json(filename):
-    with open(os.path.join(BASE_DIR, filename), "r") as f:
-        return json.load(f)
-
-combatants  = load_json("combatants.json")
-epiphanies  = load_json("epiphanies.json")
-cards_data  = load_json("cards.json")
-skills_data = load_json("skills.json")
-decks_data  = load_json("decks.json")
-
-effects_df = pd.read_csv(
-    os.path.join(BASE_DIR, "effects.csv"),
-    header=None,
-    engine="python",
-    on_bad_lines="skip"
-)
+PROTO_DATA  = DH.load_json("epiphanies.json")   # Raw epiphany data keyed by character
+effects_df = DH.load_csv("effects.csv")
 effects_df.columns = [f"col{i}" for i in range(len(effects_df.columns))]
 effects_df = effects_df.rename(columns={"col0": "name", "col1": "type", "col2": "description"})
+
 
 # State
 selected_character = None
 selected_card      = None
 choice_index       = None   # which epiphany choice the player picked
 
+
 #Data Access
 def get_epiphany_cards(character: str) -> list[str]:
     """Return card names that have epiphany options for this character."""
-    char_data = epiphanies.get(character, [])
+    char_data = PROTO_DATA.get(character, [])
     names = []
     for entry in char_data:
-        if isinstance(entry, dict):
-            names.extend(entry.keys())
+        if isinstance(entry, str):
+            names.append(entry)
     return names
 
 def get_epiphany_options(character: str, card_name: str) -> list[dict]:
     """Return the list of epiphany options for a given card."""
-    char_data = epiphanies.get(character, [])
-    for entry in char_data:
-        if isinstance(entry, dict) and card_name in entry:
-            return entry[card_name]
-    return []
+    char_data = PROTO_DATA.get(character, [])
+    return char_data[card_name] if card_name in char_data else []
 
 def create_main_page():
     global char_var, card_var, main_frame
@@ -134,7 +62,7 @@ def create_main_page():
     char_var = StringVar(value="Select combatant…")
     char_menu = CTkOptionMenu(
         main_frame, variable=char_var,
-        values=list(combatants.keys()),
+        values=list(PROTO_DATA.keys()),
         width=260, command=on_character_select
     )
     char_menu.pack(pady=(4, 16))
@@ -158,7 +86,7 @@ def on_character_select(character: str):
     options = get_epiphany_cards(character)
     if options:
         card_menu.configure(values=options)
-        card_var.set(options[0])
+        card_var.set("Select card…")
     else:
         card_menu.configure(values=["No epiphany cards found"])
         card_var.set("No epiphany cards found")
@@ -290,9 +218,5 @@ def confirm_and_restart(frame):
     create_main_page()
 
 #Initialize app
-# create_main_page()
-# app.mainloop()
-
-
 create_main_page()
 app.mainloop()
