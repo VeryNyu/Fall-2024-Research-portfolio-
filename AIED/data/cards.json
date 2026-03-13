@@ -18,28 +18,35 @@
             "name": "Rapid Fire",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "50% Damage x 2, For each Critical Hit create a Handgun Bullet, +50% Critical Chance",
             "epiphanies": true
         },
         {
             "name": "Stealth Reload",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Create 2 Handgun Bullets",
+            "epiphanies": true
+        },
+        {
+            "name": "Seize the Opportunity",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Lead, 100% Shield, +120% Damage Amount to the next Bullet card used",
             "epiphanies": true
         },
         {
             "name": "Dance of the Demon",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "50% Damage, Add 1 Hit for each Bullet card used this turn",
             "epiphanies": true
         },
         {
             "name": "Finisher Round",
             "cost": null,
             "type": "Attack",
-            "effects": "",
+            "effects": "Unique, Bullet, 200% Damage, When 5 Handgun Bullet cards are used, remove Unusable",
             "epiphanies": false
         }
     ],
@@ -69,35 +76,35 @@
             "name": "Vulture Ejection",
             "cost": 3,
             "type": "Attack",
-            "effects": "",
+            "effects": "Celestial, Retain, 132% Defense-Based Damage to all enemies, 110% Shield, 1 Silver Veil",
             "epiphanies": true
         },
         {
             "name": "Greatsword Aquila",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "165% Defense-Based Damage to all enemies, If Vulture-Ejection is in hand, increase Cost by 1, +100% Damage Amount",
             "epiphanies": true
         },
         {
             "name": "Overpower",
             "cost": 2,
             "type": "Skill",
-            "effects": "",
+            "effects": "275% Shield 1 Tenacity Damage to all enemies",
             "epiphanies": true
         },
         {
             "name": "Rally",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "132% Shield, Draw 1 highest-cost card(s)",
             "epiphanies": true
         },
         {
             "name": "Absolute Protection",
             "cost": "X",
             "type": "Skill",
-            "effects": "",
+            "effects": "Finale, Retain, 132% Shield equal to the number of X, For 1 turn, Retain all cards in hand",
             "epiphanies": false
         }
     ],
@@ -106,7 +113,7 @@
             "name": "Frozen Fist",
             "cost": 1,
             "type": "Attack",
-            "effects": "120% Defense-Based Damage",
+            "effects": "120% Defense-Based Damage, 1 Counterattack",
             "epiphanies": false
         },
         {
@@ -120,35 +127,35 @@
             "name": "Ice Fragment",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Lead, 2 Crystallization, At the start of the turn, 1 Counterattack",
             "epiphanies": true
         },
         {
             "name": "Glacial Iron Fist",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "336% Defense-Based Damage, 50% DMG-Based Shield",
             "epiphanies": true
         },
         {
             "name": "Ice Wall",
             "cost": 2,
             "type": "Skill",
-            "effects": "",
+            "effects": "202% Shield, 2 Counterattack, For 1 turn, Counterattack targets all enemies",
             "epiphanies": true
         },
         {
             "name": "Frost Charge",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "134% Shield, 2 Vulnerable to all enemies",
             "epiphanies": true
         },
         {
             "name": "Storm of Bitter Cold",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Lead, Initiation, When Shield is gained through an ability, 1 Counterattack",
             "epiphanies": false
         }
     ],
@@ -157,14 +164,14 @@
             "name": "Dark Mist Sword: First Form",
             "cost": 1,
             "type": "Attack",
-            "effects": "132% Damage Gain Dark Mist Stance",
+            "effects": "132% Damage, Gain Dark Mist Stance",
             "epiphanies": false
         },
         {
             "name": "Dark Mist Sword: Third Form",
             "cost": 2,
             "type": "Attack",
-            "effects": "276% Damage Gain Dark Mist Stance",
+            "effects": "276% Damage, Gain Dark Mist Stance",
             "epiphanies": false
         },
         {
@@ -178,35 +185,35 @@
             "name": "Drawing Slash",
             "cost": 0,
             "type": "Attack",
-            "effects": "",
+            "effects": "Haste, 122% Damage, Gain Dark Mist Stance, Dark Mist Stance: Increase Damage Amount by 50%",
             "epiphanies": true
         },
         {
             "name": "Dark Mist Secret Art: Destruction",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Draw 1 card(s) of this unit, Gain Dark Mist Stance",
             "epiphanies": true
         },
         {
             "name": "Dark Mist Secret Art: Annihilation",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Haste, 153% Damage, Dark Mist Stance: Add 1 Hit(s)",
             "epiphanies": true
         },
         {
             "name": "Dark Mist Inner Art",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Retain Dark Mist Stance for 1 turn, Dark Mist Stance: +40% Damage Amount to Attack Cards of this unit for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Dark Mist Secret Art: Black Dance",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "102% Damage, Dark Mist Stance: Add 1 Hit(s) for each Skill Card in hand",
             "epiphanies": false
         }
     ],
@@ -222,42 +229,42 @@
             "name": "Healing of Light",
             "cost": 1,
             "type": "Skill",
-            "effects": "120% Heal Has 50% Chance to create 1 Light Creation",
+            "effects": "120% Heal Has 50% Chance to create 1 Light Creation★",
             "epiphanies": false
         },
         {
             "name": "Sacred Censer",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Initiation, Create 2 Creation★",
             "epiphanies": true
         },
         {
             "name": "Growth Acceleration",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 108%, Select 1 card of this unit in hand and activate Retain effect 2 time(s)",
             "epiphanies": true
         },
         {
             "name": "Annoying",
             "cost": 0,
             "type": "Attack",
-            "effects": "",
+            "effects": "40% Fixed Damage for each card in hand",
             "epiphanies": true
         },
         {
             "name": "Growing Creature",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Create 1 Creation★, Retain: Change this card to Creation★★★",
             "epiphanies": true
         },
         {
             "name": "Will of Light",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 216%, Activate Retain effect of all cards in hand",
             "epiphanies": false
         }
     ],
@@ -280,35 +287,35 @@
             "name": "Flame Dragon's Jewel",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, Initiation, Increase Damage Amount of Attack Cards of this unit by 20%, When an Attack Card is used, 1 Passion Weakness to the target",
             "epiphanies": true
         },
         {
             "name": "Rising Dragon Spire",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "102% Damage, 2 Ember, Combo: Add 1 Hit(s)",
             "epiphanies": true
         },
         {
             "name": "Unity of Attack and Defense",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Draw 2 Basic Card(s) of this unit then decrease Cost of those cards by 1 for 1 turn until used",
             "epiphanies": true
         },
         {
             "name": "Spirit of the Aromata",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Retain, For 1 turn, when using an own card +20% own Damage Amount",
             "epiphanies": true
         },
         {
             "name": "Flame Dragon's Sovereignty",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "Weakness Attack, 306% Damage, If the target is in Ravage state, Guaranteed Critical, Destroy: retain Ember",
             "epiphanies": false
         }
     ],
@@ -331,35 +338,35 @@
             "name": "Firing Preperation",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, Initiation, Create 1 Ballista card(s), At the start of the turn, create 1 Ballista card(s)",
             "epiphanies": true
         },
         {
             "name": "Repose",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "102% Shield, Draw 2 card(s) from other combatant",
             "epiphanies": true
         },
         {
             "name": "Pendant of Resolution",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "When another combatant uses Skill Card, 1 Reload",
             "epiphanies": true
         },
         {
             "name": "Sir Kowalski",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Choose 1 Ballista card in hand , +100% Damage amount until activated, Draw 1",
             "epiphanies": true
         },
         {
             "name": "Bombardment Prep",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, Increase  max stacks of Reload by 1, 2 Reload",
             "epiphanies": false
         }
     ],
@@ -375,42 +382,42 @@
             "name": "Black Veil",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "120% Shield",
             "epiphanies": false
         },
         {
             "name": "Echo of Sorrow",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "143% Damage, Create 1 Dirge Bullet Card(s)",
             "epiphanies": true
         },
         {
             "name": "Instant Judgement",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "184% Damage, If Dirge Bullet is in hand, discard 1 and +100% Damage Amount",
             "epiphanies": true
         },
         {
             "name": "Ballad of Pitch Black",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "51% Damage x 3, +20% Damage Amount for each Dirge Bullet in hand",
             "epiphanies": true
         },
         {
             "name": "Flower of Devoured Fate",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Discard up to 2 Card(s) from hand, Create Dirge Bullet for each",
             "epiphanies": true
         },
         {
             "name": "Last-Ditch Assault",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Retain, 153% Damage (+0%), Discard all Dirge Bullet, +70% Damage Amount for each",
             "epiphanies": false
         }
     ],
@@ -433,35 +440,35 @@
             "name": "Hunting Instincts",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Initiation, When an Upgrade or Skill Card of another Combatant is used, 1 Commence the Hunt",
             "epiphanies": true
         },
         {
             "name": "Fan of Daggers",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Haste, 60% Damage x 3 to random enemies, Commence the Hunt for each target Hit",
             "epiphanies": true
         },
         {
             "name": "Quick Fix",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Haste, 80% Damage x 2, If in Commence the Hunt Draw 1 Attack Card(s)",
             "epiphanies": true
         },
         {
             "name": "Dingo Howling",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "100% Shield, 2 Commence the Hunt",
             "epiphanies": true
         },
         {
             "name": "Fixer's Approach",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, Increase Extra Attack Damage Amount of Commence the Hunt by 40%",
             "epiphanies": false
         }
     ],
@@ -484,35 +491,35 @@
             "name": "Shackles of Hunger",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "336% Defense-Based Damage x 3, Attunement : 4 Voracity",
             "epiphanies": true
         },
         {
             "name": "Bottomless Hunger",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "The next 2 times Voracity is activated, decrease Cost of 1 random card in hand by 1 for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Voluntary Control",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "If Voracity is fewer than 6 stacks, gain 6 Voracity, If 6 or more stacks, gain 2 Predation",
             "epiphanies": true
         },
         {
             "name": "Domain of Voracity",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "120% Defense-Based Damage to all enemies, Increase Tenacity Damage taken of the target by 100% until their next Ravage",
             "epiphanies": true
         },
         {
             "name": "Mealtime",
             "cost": 6,
             "type": "Attack",
-            "effects": "",
+            "effects": "Retain, Unique, If Voracity is decreased, decrease Cost by 1 and add +30% Heal Amount (max 10) until used, 192% Defense-Based Damage to all enemies, Heal 120%, 4 Predation",
             "epiphanies": false
         }
     ],
@@ -542,35 +549,35 @@
             "name": "Prepare to Subdue",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Draw 1 Attack Card(s) of this unit, Increase Damage Amount of those cards by 20% for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Flash Slash",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "220% Damage to all enemies, Inspiration: Decrease Cost by 1",
             "epiphanies": true
         },
         {
             "name": "Trickery Strike",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Retain, 198% Damage, Enable Inspiration for 1 random card(s) of this unit in hand",
             "epiphanies": true
         },
         {
             "name": "Freezing Blade",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, When using a card of this unit with an enabled Inspiration, 90% damage to all enemies",
             "epiphanies": true
         },
         {
             "name": "Iceberg Cleave",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "198% Damage to all enemies, Inspiration: Add 1 Hit",
             "epiphanies": false
         }
     ],
@@ -593,35 +600,35 @@
             "name": "Karmix Flames",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Initiation, 110% Damage, 1 Cursed Shackles, Cursed Shackles: Add 2 Hits",
             "epiphanies": true
         },
         {
             "name": "Tsukuyomi",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "3 Will-O'-Wisp for each Hit of the next Attack Card of this unit used",
             "epiphanies": true
         },
         {
             "name": "Bound At Dusk",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Initiation, Unique, At the start of the turn, gain Inhibit, Decrease, Cost of 2 random card(s) of other Combatants by 1 until used",
             "epiphanies": true
         },
         {
             "name": "Oni Hunt",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Haste, 66% Damage x 3, +80% Damage Amount to the next Bind card used",
             "epiphanies": true
         },
         {
             "name": "Shadow of the Moon",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Bind 1, Retain, 94% Damage, +40% Damage Amount for each Bind stack",
             "epiphanies": false
         }
     ],
@@ -651,35 +658,35 @@
             "name": "Anchor Shot",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "Pulverize, 330% Damage, +80% Damage Amount for each use of this card (max 10)",
             "epiphanies": true
         },
         {
             "name": "Anchor Pointer",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Move Anchor Shot from Draw Pile or Graveyard to hand",
             "epiphanies": true
         },
         {
             "name": "Power Charge",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "198% Damage to all enemies, If there is only one target, +80% Damage Amount",
             "epiphanies": true
         },
         {
             "name": "Charge Energy",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Retain, Increase Damage Amount of Attack Cards of this unit by 30% for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Lift Anchor",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Retain, Increase Damage Amount of Anchor Shot in hand by 120% for 1 turn until used",
             "epiphanies": false
         }
     ],
@@ -702,35 +709,35 @@
             "name": "Echo of Futility",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "240% Damage, Create 2 Futility",
             "epiphanies": true
         },
         {
             "name": "Brand of Annihilation",
             "cost": 3,
             "type": "Attack",
-            "effects": "",
+            "effects": "300% Damage to all enemies, When a card is Exhausted, decrease Cost of this card by 1 for 1 turn until used",
             "epiphanies": true
         },
         {
             "name": "Black Hole",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "240% Damage, +40% Damage Amount for each Exhausted Futility",
             "epiphanies": true
         },
         {
             "name": "Oath of Vanity",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, When Futility is created, change those cards into 1-Cost Attack Cards with 100% Damage and Heal effects",
             "epiphanies": true
         },
         {
             "name": "Echoes of True Abyss",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "240% Damage, Create 3 Futility, +40% Damage Amount for each",
             "epiphanies": false
         }
     ],
@@ -753,35 +760,35 @@
             "name": "Hew",
             "cost": 3,
             "type": "Attack",
-            "effects": "",
+            "effects": "Unique, Initiation, Exhaust, Ephemeral, 420% Defense-Based Damage, Incinerate: Create 1 Hew Lv. 1",
             "epiphanies": true
         },
         {
             "name": "Experienced Strike",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "168% Defense-Based Damage, 20% DMG-Based Shield, Increase Damage Amount of Exhaust cards by 20% for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Fatal Strike",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "168% Defense-Based Damage, 20% DMG-Based Shield, Increase Damage Amount by 20% for each Cost of the highest-Cost Exhaust card in hand, then Exhaust that card",
             "epiphanies": true
         },
         {
             "name": "Counterblade",
             "cost": 0,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, When Shield is gained through an ability, 1 Honed Edge",
             "epiphanies": true
         },
         {
             "name": "Fighting Spirit",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Activate 1 highest-Cost Attack Card(s) of this unit in hand, then Exhaust those cards",
             "epiphanies": false
         }
     ],
@@ -804,35 +811,35 @@
             "name": "Homing Laser",
             "cost": 0,
             "type": "Attack",
-            "effects": "",
+            "effects": "132% Damage, 2 Afterglow, On Ravage, Move from Graveyard to hand",
             "epiphanies": true
         },
         {
             "name": "Plasma Missile",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "144% Damage, 0.5 Tenacity Damage, If the target is not Ravaged, activate 1 more time.",
             "epiphanies": true
         },
         {
             "name": "Shining Core",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Create 2 Homing Laser L",
             "epiphanies": true
         },
         {
             "name": "Cobalt Light",
             "cost": 3,
             "type": "Attack",
-            "effects": "",
+            "effects": "144% Damage x 4 to random enemies, 1 Tenacity Damage for each Hit",
             "epiphanies": true
         },
         {
             "name": "Pale Shooting Star",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "240% Damage, Activate 5 Homing Laser in Draw Pile and Graveyard",
             "epiphanies": false
         }
     ],
@@ -855,35 +862,35 @@
             "name": "Quantum Seed",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 110%, Create 2 Archetype card(s) in in Draw Pile, Draw 1 of them",
             "epiphanies": true
         },
         {
             "name": "Form Convergence",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Retain, Draw 2 Archetype card(s), Double a random effect of those cards for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Creation and Destruction",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "132% Defense-Based Damage, 88% Shield, Heal 88%, Harmonization: Double all effects",
             "epiphanies": true
         },
         {
             "name": "Dual Creation",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, When 2 Archetype cards are created, create 1 identical card in Discard Pile",
             "epiphanies": true
         },
         {
             "name": "Event Horizon",
             "cost": 2,
             "type": "Skill",
-            "effects": "",
+            "effects": "Unique, Form Upgrade, 1 AP, Draw 1, Increase Damage Amount of the first Hit of next Attack Card by 40%",
             "epiphanies": false
     }
     ],
@@ -899,42 +906,42 @@
             "name": "Amp Therapy",
             "cost": 1,
             "type": "Skill",
-            "effects": "132% Heal",
+            "effects": "132% Heal, 1 Elasticity",
             "epiphanies": false
         },
         {
             "name": "G Chord",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "2 Decibel, Activate the top 1 card(s) of the Draw Pile",
             "epiphanies": true
         },
         {
             "name": "Mute Accent",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Discard 1 card(s) with highest Cost, The Combatant who owns that card preforms 150% Extra Attack to a random enemy",
             "epiphanies": true
         },
         {
             "name": "Soul Rip",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Retain, Heal 183%, For 1 turn, when a card is Discarded, 1 Decibel and 1 Elasticity",
             "epiphanies": true
         },
         {
             "name": "Adagio",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Draw 1, Discard 1, Move discarded card that is effected to top of the Draw Pile",
             "epiphanies": true
         },
         {
             "name": "Nia's Curiosity",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Check 3 random cards from the Draw Pile, Choose 1 to Draw, Discard the rest",
             "epiphanies": false
         }
     ],
@@ -1015,35 +1022,35 @@
             "name": "Unsheathe Dagger",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Create 2 Shadow Dagger",
             "epiphanies": true
         },
         {
             "name": "Curse",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "For 1 turn, when Attack Cards are used, 1 Agony on the target",
             "epiphanies": true
         },
         {
             "name": "Shadow Reload",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 114%, Create 1 Advanced Shadow Dagger",
             "epiphanies": true
         },
         {
             "name": "Vital Attack",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "91% Damage x 3, If the target is in an Agony state, +50% Damage Amount",
             "epiphanies": true
         },
         {
             "name": "Cursed Gouge",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Activate all Agony inflicted on the target",
             "epiphanies": false
         }
     ],
@@ -1066,35 +1073,35 @@
             "name": "Hovering Metal",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "3 Damage Reduction, 2 Metallization",
             "epiphanies": true
         },
         {
             "name": "Metal Pierce",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "110% Defense-Based Damage x 2, If in Metallization state, decrease Metallizationby 1 and inflict 2 Vulnerable",
             "epiphanies": true
         },
         {
             "name": "Metal Extraction",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "2 Metallization, For 1 turn, 2 Resolve",
             "epiphanies": true
         },
         {
             "name": "Full Metal Hurricane",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "244% Defense-Based Damage to all enemies, For 1 turn, Metallization targets all enemies and +20% Damage Amount",
             "epiphanies": true
         },
         {
             "name": "Iron Skin",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Exhaust, Decrease Damage Taken by 40% for 1 turn, Decrease up to 3 Metallization, Additionally decrease Damage Taken by 20% for each",
             "epiphanies": false
         }
     ],
@@ -1117,35 +1124,35 @@
             "name": "Extended Magazine",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Lead, At the start of the turn, create 1 Launcher Bullet",
             "epiphanies": true
         },
         {
             "name": "S.S.S",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "112% Damage, For 1 turn, +40% Bullet card Damage",
             "epiphanies": true
         },
         {
             "name": "Flame Thrower",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "202% Damage to all enemies, Draw 1, Discard 1",
             "epiphanies": true
         },
         {
             "name": "Flashbang",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "134% Damage to all enemies, 2 Weaken, If the target has Shield, +50% Damage",
             "epiphanies": true
         },
         {
             "name": "R.P.G-7",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "When Bullet cards are Exhausted, 50% Fixed Damage",
             "epiphanies": false
         }
     ],
@@ -1154,56 +1161,56 @@
             "name": "Shelter Kick",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "132% Defense-Based Damage",
             "epiphanies": false
         },
         {
             "name": "Shelter Defense",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "132% Shield, 1 Counterattack",
             "epiphanies": false
         },
         {
             "name": "Shelter Hold",
             "cost": 2,
             "type": "Skill",
-            "effects": "",
+            "effects": "290% Shield, 1 Counterattack",
             "epiphanies": false
         },
         {
             "name": "Resolute Blitz",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Pulverize, 160% Defense-Based Damage, 1 Counterattack",
             "epiphanies": true
         },
         {
             "name": "Maribell Shelter MK.II",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Pulverize, 114% Defense-Based Damage 100% DMG-Based Shield",
             "epiphanies": true
         },
         {
             "name": "Wolves' Dome",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "2 Counterattack, At the start of the turn, 1 Counterattack",
             "epiphanies": true
         },
         {
             "name": "Oh... I see",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "114% Shield, 1 Counterattack, 1 Weaken to all enemies",
             "epiphanies": true
         },
         {
             "name": "Shelter Strike",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Pulverize, Fixed Damage equal to 150% of Shield owned",
             "epiphanies": false
         }
     ],
@@ -1212,49 +1219,49 @@
             "name": "Water Arrow",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "132% Damage",
             "epiphanies": false
         },
         {
             "name": "Water Barrier",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 178%",
             "epiphanies": false
         },
         {
             "name": "Source of Water",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 122%, Gain 1 AP",
             "epiphanies": true
         },
         {
             "name": "Blessing of Waves",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Retain, Heal 122%, Increase Heal Amount by 30% for each AP",
             "epiphanies": true
         },
         {
             "name": "Tactical Analysis",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "1 Wave, +50% Heal Amount for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Whirlpool",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "244% Damage to all enemies, Heal 50% for each target hit",
             "epiphanies": true
         },
         {
             "name": "Deluge",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, Initiation, 1 Wave, At the start of the turn, 1 Wave",
             "epiphanies": false
         }
     ],
@@ -1263,56 +1270,56 @@
             "name": "Launcher",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "130% Damage",
             "epiphanies": false
         },
         {
             "name": "Charge Launcher",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "286% Damage",
             "epiphanies": false
         },
         {
             "name": "Barrier",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "130% Shield",
             "epiphanies": false
         },
         {
             "name": "Opening Found",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Retain, 160% Damage, Retain: Add 1 Hit(s) for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Charged Shot",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "Retain, 274% Damage, Retain: +120% Damage Amount",
             "epiphanies": true
         },
         {
             "name": "Guilty Pleasure",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Exhaust, Draw 3",
             "epiphanies": true
         },
         {
             "name": "Unlimited Firepower",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "114% Shield, +80% Damage Amount to the next Attack Card of this unit used",
             "epiphanies": true
         },
         {
             "name": "Heavy Weapons Specialist",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Create 1 Opening Found or Charged Shot, then apply Exhaust to that card and decrease Cost by 1 until used",
             "epiphanies": false
         }
     ],
@@ -1321,56 +1328,56 @@
             "name": "Cards",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "128% Damage, 30% chance to Draw 1",
             "epiphanies": false
         },
         {
             "name": "Wild Card",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "282% Damage, 30% chance to Draw 1",
             "epiphanies": false
         },
         {
             "name": "Mana Field",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 128%",
             "epiphanies": false
         },
         {
             "name": "Pop Eyed Popper",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Start a random 1 out of 4 Quests",
             "epiphanies": true
         },
         {
             "name": "Devil Dice",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "182% Damage, Draw 1",
             "epiphanies": true
         },
         {
             "name": "Shuffle",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Exhaust, Discard all cards in hand, Draw for each Discarded",
             "epiphanies": true
         },
         {
             "name": "Dice Trick",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "274% Damage, Decrease Morale by 1 for 1 turn, Decrease Cost by the number of completed Quests",
             "epiphanies": true
         },
         {
             "name": "Joker",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Choose 1 card(s) from the Draw Pile or Discard Pile, move card(s) to hand",
             "epiphanies": false
         }
     ],
@@ -1379,49 +1386,49 @@
             "name": "Downward Cut",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "106% Damage",
             "epiphanies": false
         },
         {
             "name": "Weapon Block",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "106% Shield",
             "epiphanies": false
         },
         {
             "name": "Wind Charge",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Add 1 Hit(s) to the next Attack Card of this unit that is used",
             "epiphanies": true
         },
         {
             "name": "Wind Slash",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "254% Damage to all enemies",
             "epiphanies": true
         },
         {
             "name": "Break Armor",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "148% Damage, 2 Vulnerable",
             "epiphanies": true
         },
         {
             "name": "Wind Riding",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "159% Shield, Move Wind Charge from Discard Pile to hand",
             "epiphanies": true
         },
         {
             "name": "Gale Strike",
             "cost": 2,
             "type": "Attack",
-            "effects": "",
+            "effects": "371% Damage, 191% Shield",
             "epiphanies": false
         }
     ],
@@ -1430,49 +1437,49 @@
             "name": "Dark Blade",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "145% Damage, 20% DMG-Based Recovery",
             "epiphanies": false
         },
         {
             "name": "Material Regeneration",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Heal 132%",
             "epiphanies": false
         },
         {
             "name": "Strike of Darkness",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "Lead, 122% Damage, Increas Damage Amount of Basic Attack Cards by 100% for 1 turn",
             "epiphanies": true
         },
         {
             "name": "Resonating Darkness",
             "cost": 1,
             "type": "Upgrade",
-            "effects": "",
+            "effects": "Unique, +40% Damage Amount of cards with Cost 1",
             "epiphanies": true
         },
         {
             "name": "Snack Time",
             "cost": 0,
             "type": "Skill",
-            "effects": "",
+            "effects": "Exhaust, Choose 1 cards(s) in hand to Exhaust, Heal 244%, Draw 1",
             "epiphanies": true
         },
         {
             "name": "Dark Condensation",
             "cost": 1,
             "type": "Skill",
-            "effects": "",
+            "effects": "Choose 1 Attack Card(s) in hand, +100% Damage Amount for 1 turn until used",
             "epiphanies": true
         },
         {
             "name": "Predator's Blade",
             "cost": 1,
             "type": "Attack",
-            "effects": "",
+            "effects": "305% Damage, For 1 turn, 4 Morale",
             "epiphanies": false
         }
     ]

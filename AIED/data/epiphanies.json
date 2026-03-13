@@ -1,899 +1,817 @@
 {
     "Luke": {
         "Rapid Fire": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Retrieve, 75% Damage x 2, For each Critical Hit create a Handgun Bullet, +50% Critical Chance"},
+            {"cost": 1,"type": "Attack", "effect": "30% Damage x 3, For each Critical Hit create a Handgun Bullet, +50% Critical Chance"},
+            {"cost": 1,"type": "Attack", "effect": "300% Damage, For each Critical Hit create a Handgun Bullet, Guaranteed Critical"},
+            {"cost": 0,"type": "Attack", "effect": "Bullet, 100% Damage x 3, +50% Critical Chance"},
+            {"cost": 1,"type": "Attack", "effect": "100% Damage x 2, For each Critical Hit, Draw, +70% Critical Chance"}
         ],
         "Stealth Reload": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Create 2 Handgun Bullets, +30% Critical Chance to those cards"},
+            {"cost": 1,"type": "Skill", "effect": "Create 3 Handgun Bullets"},
+            {"cost": 1,"type": "Skill", "effect": "Create 2 Handgun Bullets, At the start of the next turn, create 2 Handgun Bullets"},
+            {"cost": 0,"type": "Upgrade", "effect": "At the start of the turn, Create 1 Handgun Bullet"},
+            {"cost": 2,"type": "Skill", "effect": "Exhaust, Create 5 Handgun Bullets"}
         ],
         "Seize the Opportunity": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Lead, 150% Shield, +170% Damage Amount to the next Bullet card used"},
+            {"cost": 1,"type": "Skill", "effect": "Lead, 100% Shield, +240% Damage Amount to the next 2 Bullet cards used"},
+            {"cost": 1,"type": "Skill", "effect": "Lead, 100% Shield, +70% Damage Amount to Bullet cards for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "Lead, 100% Shield, +100% Damage Amount to the next Attack Card used"},
+            {"cost": 1,"type": "Upgrade", "effect": "Lead, +30% Damage Amount to Handgun Bullet cards"}
         ],
         "Dance of the Demon": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""}]
+            {"cost": 1,"type": "Attack", "effect": "75% Damage, Add 1 Hit for each Bullet card used this turn"},
+            {"cost": 1,"type": "Attack", "effect": "50% Damage, Add 1 Hit for each Attack Card used this turn"},
+            {"cost": 1,"type": "Attack", "effect": "50% Damage, Add 1 Hit for each Bullet card used this turn, Weakness Attack: +50% Damage"},
+            {"cost": 1,"type": "Attack", "effect": "50% Damage, 50% Shield, Add 1 Hit and +50% Shield Gain Amount for each Bullet card used this turn"},
+            {"cost": 3,"type": "Attack", "effect": "50% Damage x 6, When Bullet card used, decrease Cost by 1 for 1 turn until used"}]
     },
     "Khalipe": {
         "Vulture Ejection": [
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Skill", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""}
+            {"cost": 3,"type": "Attack", "effect": "Celestial, Retain, 308% Defense-Based Damage to all enemies, 1 Silver Veil"},
+            {"cost": 3,"type": "Skill", "effect": "Celestial, Retain, 308% Shield, 1 Silver Veil"},
+            {"cost": 3,"type": "Attack", "effect": "Celestial, Retain, 198% Defense-Based Damage to all enemies, 165% Shield, 1 Silver Veil"},
+            {"cost": 3,"type": "Attack", "effect": "Celestial, Retain, 198% Defense-Based Damage to all enemies, 1 Silver Veil, Retain: 110% Shield"},
+            {"cost": 3,"type": "Attack", "effect": "Celestial, Retain, 198% Defense-Based Damage to all enemies, 1 Silver Veil, 40% Shield for each card in hand"}
         ],
         "Greatsword Aquils": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "231% Defense-Based Damage to all enemies, If Vulture-Ejection is in hand, increase Cost by 1, +120% Damage Amount"},
+            {"cost": 2,"type": "Attack", "effect": "242% Defense-Based Damage to all enemies, When used, +40% Damage Amount"},
+            {"cost": 2,"type": "Attack", "effect": "242% Defense-Based Damage to all enemies, If Vulture-Ejection is in hand, 1 Silver Veil"},
+            {"cost": 2,"type": "Attack", "effect": "Retain, 242% Defense-Based Damage to all enemies, Retain: +60% Damage Amount to next used Vulture Ejection"},
+            {"cost": 1,"type": "Attack", "effect": "Retrieve 3, 165% Defense-Based Damage to all enemies, If Vulture-Ejection is in hand, increase Cost by 1, +100% Damage Amount"}
         ],
         "Overpower": [
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""}
+            {"cost": 2,"type": "Skill", "effect": "330% Shield, 1 Tenacity Damage to all enemies, 1 Damage Reduction for each enemy in a Ravaged state"},
+            {"cost": 2,"type": "Skill", "effect": "330% Shield 1 Tenacity Damage to all enemies, 2 Vulnerable to enemies in a Ravaged state, If not 2 Weaken"},
+            {"cost": 2,"type": "Skill", "effect": "330% Shield 2 Tenacity Damage to all enemies"},
+            {"cost": 2,"type": "Skill", "effect": "275% Shield 1 Tenacity Damage to all enemies, +40% Shield Gain Amount for each card in hand"},
+            {"cost": 2,"type": "Skill", "effect": "330% Shield 1 Tenacity Damage to all enemies, Increase Action Count of all enemies by 5"}
         ],
         "Rally": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "165% Shield, Draw 1 highest-cost card(s), 1 Silver Veil"},
+            {"cost": 1,"type": "Skill", "effect": "165% Shield, Draw 1 Celestial card(s), 1 Silver Veil"},
+            {"cost": 2,"type": "Skill", "effect": "Celestial, 165% Shield, Draw 1 highest-cost card(s), 1 Silver Veil"},
+            {"cost": 1,"type": "Skill", "effect": "132% Shield, Draw 1, gain 66% Shield equal to that card's Cost, 1 Silver Veil"},
+            {"cost": 1,"type": "Skill", "effect": "165% Shield, Choose and draw 1 card(s) costing 2 or more from Draw Pile"}]
     },
     "Magna": {
         "Ice Fragment": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Upgrade", "effect": "Lead, 4 Crystallization, At the start of the turn, 1 Counterattack"},
+            {"cost": 1,"type": "Upgrade", "effect": "Lead, 2 Crystallization, At the start of the turn, 2 Counterattack"},
+            {"cost": 0,"type": "Upgrade", "effect": "Initiation, 2 Crystallization, At the start of the turn, 1 Counterattack"},
+            {"cost": 2,"type": "Upgrade", "effect": "Unique, Lead, 2 Crystallization, At the start of the turn, 200% Defense-Based Damage to all enemies"},
+            {"cost": 2,"type": "Skill", "effect": "Lead, 4 Counterattack, Increase Damage Amount of the next Counterattack by 30%"}
         ],
         "Glaciel Iron Fist": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 2,"type": "Attack", "effect": "495% Defense-Based Damage, 50% DMG-Based Shield"},
+            {"cost": 2,"type": "Attack", "effect": "330% Defense-Based Damage, 3 Vulnerable"},
+            {"cost": 2,"type": "Attack", "effect": "495% Defense-Based Damage, When Shield is owned, increases Damage Amount by 50%"},
+            {"cost": 2,"type": "Attack", "effect": "336% Defense-Based Damage to all enemies, 50% DMG-Based Shield"},
+            {"cost": 2,"type": "Attack", "effect": "Exhause 2, 440% Defense-Based Damage, 50% DMG-Based Shield, For 1 turn, 1 Retain Shield"}
         ],
         "Ice Wall": [
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""}
+            {"cost": 2,"type": "Skill", "effect": "297% Shield, 3 Counterattack, For 1 turn, Counterattack targets all enemies"},
+            {"cost": 2,"type": "Skill", "effect": "297% Shield, +30% Shield Gain Amount for each Counterattack owned on this unit, 2 Counterattack"},
+            {"cost": 2,"type": "Attack", "effect": "Lead, Counterattack targets all enemies"},
+            {"cost": 2,"type": "Upgrade", "effect": "198% Shield, Damage to all enemies equal to Shield owned"},
+            {"cost": 2,"type": "Skill", "effect": "198% Shield, 2 Counterattack, For 2 turns, Counterattack targets all enemies"}
         ],
         "Frost Charge": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "198% Shield, 2 Vulnerable to all enemies +50% Shield Gain Amount for each enemy"},
+            {"cost": 1,"type": "Skill", "effect": "198% Shield, 3 Vulnerable to all enemies"},
+            {"cost": 1,"type": "Upgrade", "effect": "2 Vulnerable to targets that are Counterattacked"},
+            {"cost": 1,"type": "Attack", "effect": "110% Defense-Based Damage x 3 to random enemies, 1 Vulnerable to targets what were Hit"},
+            {"cost": 1,"type": "Skill", "effect": "2 Vulnerable to all enemies, 2 Counterattack"}]
     },
     "Rin": {
         "Drawing Slash": [
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 0,"type": "Attack", "effect": "Haste, 184% Damage, Gain Dark Mist Stance, Dark Mist Stance: Increase Damage Amount by 50%"},
+            {"cost": 0,"type": "Attack", "effect": "Haste, 153% Damage, Gain Dark Mist Stance, Dark Mist Stance: Add 1 Hit(s)"},
+            {"cost": 0,"type": "Attack", "effect": "Haste, 357% Damage, Gain Dark Mist Stance, Dark Mist Stance: This card can be used"},
+            {"cost": 0,"type": "Attack", "effect": "Haste, 122% Damage, Gain Dark Mist Stance, Dark Mist Stance: Increase Damage Amount by 30% for each (0) card in hand"},
+            {"cost": 2,"type": "Attack", "effect": "Haste, 367% Damage, Gain Dark Mist Stance, Dark Mist Stance: Increase Damage Amount by 50%"}
         ],
         "Dark Mist Secret Art: Destruction": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "102% Shield, Draw 2 card(s) of this unit, Gain Dark Mist Stance"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 1 card(s) of this unit, then decrease Cost of those cards by 1 for 1 turn until used, Gain Dark Mist Stance"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 1 card(s) of this unit, then increase Damage Amount of those cards by 50%, Gain Dark Mist Stance"},
+            {"cost": 0,"type": "Skill", "effect": "Move Dark Mist Secret Art: Annihilation and Dark Mist Secret Art: Black Dance from Draw Pile or Graveyard to hand"},
+            {"cost": 2,"type": "Upgrade", "effect": "At the start of the turn, if in Dark Mist Stance, Draw 1 card(s) of this unit"}
         ],
         "Dark Mist Secret Art: Annihiliation": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Haste, 230% Damage, Dark Mist Stance: Add 1 Hit(s)"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 51% Damage x 2, Dark Mist Stance: Add 2 Hit(s)"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 102% Damage x 2, Dark Mist Stance: +100% Critical Damage"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 255% Damage, Dark Mist Stance: Increase Damage Amount by 100%"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 184% Damage, Dark Mist Stance: Decrease Cost of all cards of this unit in hand by 1 for 1 turn until used"}
         ],
         "Dark Mist Inner Art": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "Retain Dark Mist Stance for 1 turn, Dark Mist Stance: +80% Damage Amount to Attack Cards of this unit for 1 turn"},
+            {"cost": 0,"type": "Skill", "effect": "Retain Dark Mist Stance for 1 turn, Dark Mist Stance: +40% Damage Amount to Attack Cards of this unit for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "Retain Dark Mist Stance for 1 turn, Create 1 Dark Mist Secret Art: Annihilation card(s) and apply Ephemeral to those cards"},
+            {"cost": 1,"type": "Upgrade", "effect": "At the start of the turn, gain Dark Mist Stance"},
+            {"cost": 1,"type": "Upgrade", "effect": "If in a Dark Mist Stance, increase Damage Amountof Attack Cards of this unit by 50%"}]
     },
     "Orlea": {
         "Sacred Censer": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Initiation, Create 3 Creation★"},
+            {"cost": 2,"type": "Upgrade", "effect": "Initiation, Lead, Create 2 Creation★, At the start of the turn, Create 1 Creation★"},
+            {"cost": 1,"type": "Skill", "effect": "Initiation, Create 1 Softie★ and Creation★ each, When the next Softie is used, create Softie★"},
+            {"cost": 1,"type": "Skill", "effect": "Initiation, Create 1 Swiftie★ and Creation★ each Increase Damage Amount of the next Swiftie used by 40%"},
+            {"cost": 1,"type": "Skill", "effect": "Initiation, Create 1 Sturdie★ and Creation★ each, When the next Sturdie is used, 150% Shield"}
         ],
         "Growth Acceleration": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Heal 108%, Select 1 card in hand and activate Retain effect 2 time(s)"},
+            {"cost": 2,"type": "Skill", "effect": "Exhaust, Heal 216%, Select 1 Creation of this unit in hand and duplicate it into hand"},
+            {"cost": 1,"type": "Skill", "effect": "Heal 162%, Select 1 card of this unit in hand and activate Retain effect 2 time(s), When that card is a Softie, 2 Vulnerable to all enemies"},
+            {"cost": 1,"type": "Skill", "effect": "Heal 162%, Select 1 card of this unit in hand and activate Retain effect 2 time(s), when that card is a Swiftie, activate Retain effect 3 times"},
+            {"cost": 1,"type": "Skill", "effect": "Heal 162%, Select 1 card of this unit in hand and activate Retain effect 2 time(s), when that card is a Sturdie, decrease Stress of allies by 5"}
         ],
         "Annoying": [
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 0,"type": "Attack", "effect": "40% Fixed Damage for each card in hand, When there are 6 or more cards, Heal 162%"},
+            {"cost": 1,"type": "Attack", "effect": "108% Damage +100% Damage Amount for each Creation in hand"},
+            {"cost": 3,"type": "Attack", "effect": "Retain, 450% Fixed Damage, Retain: Decrease Cost by 1"},
+            {"cost": 0,"type": "Attack", "effect": "60% Fixed Damage x 3 to random enemies, Create 1 Creation★ for each target hit"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, 108% Damage, For each Creation created while this card is in hand, +100% Damage Amount to this card until used"}
         ],
         "Growing Creature": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "Retain, Create 1 Creation★, Retain: Create 1 Creation★"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Create 1 Creation★, Retain: Change this card to Creation★★ and create 1 of each Creation★"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Create 1 Creation★, Retain: Change this card to Softie★★★, then 2 Vulnerable to all enemies"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Create 1 Creation★, Retain: Change this card to Swiftie★★★and activate Retain effect 2 time(s)"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Create 1 Creation★, Retain: Change this card to Sturdie★★★, then 3 Weaken to all enemies"}]
     },
     "Mei Lin": {
         "Flame Dragon's Jewel": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Increase Damage Amount of Attack Cards of this unit by 30%, When an Attack Card is used, 1 Passion Weakness to the target"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Increase Damage Amount of Attack Cards of this unit by 20%, When an Attack Card is used, 1 Tenacity Damage to the target"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Increase Damage Amount of Attack Cards of this unit by 20%, When an Attack Card is used, 1 Ember and 1 Passion Weakness to the target"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Increase Critical Chance of this unit by 30%, On Critical Hit, 1 Tenacity Damage, 1 Ember"},
+            {"cost": 2,"type": "Upgrade", "effect": "Initiation, Upon Ravage, 300% Damage to the target"}
         ],
         "Rising Dragon Spire": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "102% Damage, 2 Ember, Combo: Add 2 Hit(s)"},
+            {"cost": 1,"type": "Attack", "effect": "153% Damage, 3 Ember, Combo: Add 1 Hit(s)"},
+            {"cost": 2,"type": "Attack", "effect": "204% Damage, Next Passion Card used, 1 extra Hit"},
+            {"cost": 1,"type": "Attack", "effect": "102% Damage, Next Basic Attack Card used, 2 extra Hits"},
+            {"cost": 2,"type": "Attack", "effect": "102% Damage, For 1 turn, each Passion Card used, 1 extra Hit"}
         ],
         "Unity of Attack and Defense": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Draw 2 Basic Card(s) of this unit then decrease Cost by 1, increase Damage Amount and Shield Gain Amount of those cards by 50% for 1 turn until used"},
+            {"cost": 0,"type": "Skill", "effect": "Move 2 Basic Card(s) of this unit then decrease Cost of those cards by 1 for 1 turn until used"},
+            {"cost": 2,"type": "Skill", "effect": "Draw 2 own Basic Card(s), Choose up to 2 card(s) in hand to exhaust, For each card, 2 Morale, 2 Resolve for 1 turn"},
+            {"cost": 0,"type": "Upgrade", "effect": "Create 2 Strike card(s), Decrease Cost of those cards by 1"},
+            {"cost": 2,"type": "Upgrade", "effect": "Unique, Increase Damage Amount of Basic Cards of this unit by 100%"}
         ],
         "Spirit of the Aromata": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "Retain, For 1 turn, when using Passion card +20% own Damage Amount"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, For 1 turn, when using an own card +30% own Damage Amount"},
+            {"cost": 0,"type": "Skill", "effect": "Initiation, For 1 turn, when using an own card +20% own Damage Amount"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, For 1 turn, when using an own card 1 Ember on a random enemy"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, For 1 turn, when using an own card +50% own Basic Card Damage Amount"}]
     },
     "Veronica": {
         "Firing Preparation": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Create 1 Ballista card(s), At the start of the turn, create 1 Ballista card(s) with a 50% chance to additionally create 1 more"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Create 1 Piercing Ballista, At the start of the turn, create 1 Piercing Ballista card(s)"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Create 1 Enhanced Ballista, At the start of the turn, create 1 Enhanced Ballista card(s)"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Create 1 Giant Ballista, At the start of the turn, create 1 Giant Ballista card(s)"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Create 1 Shelling Ballista, At the start of the turn, create 1 Shelling Ballista card(s)"}
         ],
         "Repose": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Draw 2 other combatant card(s)"},
+            {"cost": 1,"type": "Skill", "effect": "153% Shield, Draw 2 other combatant card(s), If that card is a Skill Card, 1 Reload"},
+            {"cost": 1,"type": "Skill", "effect": "153% Shield, Draw 2 card(s) from other combatant, Decrease Cost of 1 of those cards by 1 for 1 turn until used"},
+            {"cost": 1,"type": "Skill", "effect": "153% Shield, 1 Reload equal to number of other combatant Skill Cards in hand"},
+            {"cost": 1,"type": "Skill", "effect": "102% Shield, Discard all other combatant cards in hand, 1 Reload equal to that number"}
         ],
         "Pendant of Resolution": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Upgrade", "effect": "When using a Skill Card, 1 Reload"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When another combatant uses Skill Card, 1 Reload, If 3 are used, at the start of the next turn, create 1 Micro Ballista card(s)"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust 2, For 1 turn(s), when a card is used, 1 Reload"},
+            {"cost": 1,"type": "Upgrade", "effect": "When another combatant uses a Skill Card, 1 Reload, 50% Chance to gain an additional Reload"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Retrieve 4, Reload 2"}
         ],
         "Sir Kowalski": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "Choose 1 Ballista card in hand , +150% Damage amount until activated, Draw 2"},
+            {"cost": 1,"type": "Skill", "effect": "Draw 1, Increase Damage Amount of Ballista by 30% for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "Draw 2, When drawing a Skill card, create 1 Ballista"},
+            {"cost": 1,"type": "Skill", "effect": "+250 Damage amount of 1 random Ballista card in hand. Exhaust after activation"},
+            {"cost": 1,"type": "Skill", "effect": "Select and Exhaust 1 Ballista in hand, Create 2 Ballista, decrease Damage Amount of those cards by 25% until activated"}]
     },
     "Renoa": {
         "Echo of Sorrow": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "143% Damage, Create 2 Dirge Bullet Card(s)"},
+            {"cost": 1,"type": "Attack", "effect": "143% Damage, Create 1 Dirge Bullet Card(s), Create 2 Card(s) in Discard Pile"},
+            {"cost": 1,"type": "Attack", "effect": "143% Damage, Create 1 Dirge Bullet Card(s), Discard 2 Dirge Bullet Card(s) from Draw Pile"},
+            {"cost": 1,"type": "Skill", "effect": "Create 3 Dirge Bullet Card(s)"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, Create 1 Dirge Bullet Card(s), At the start of the turn, Create 1 Dirge Bullet Card(s)"}
         ],
         "Instant Judgement": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "275% Damage, If Dirge Bullet is in hand, discard 1 and +150% Damage Amount"},
+            {"cost": 1,"type": "Attack", "effect": "224% Damage, If Dirge Bullet is in Draw Pile, discard 1 and +120% Damage Amount"},
+            {"cost": 1,"type": "Attack", "effect": "224% Damage, If Dirge Bullet is in Graveyard, Exhaust 1 and add 1 Hit(s)"},
+            {"cost": 2,"type": "Attack", "effect": "184% Damage, When moved to Discard Pile, 255% Extra Attack to a random enemy"},
+            {"cost": 1,"type": "Upgrade", "effect": "At the end of the turn, 200% Extra Attack to the enemy with the lowest HP"}
         ],
         "Ballad of Pitch Black": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "77% Damage x 3, +30% Damage Amount for each Dirge Bullet in hand"},
+            {"cost": 1,"type": "Skill", "effect": "Move up to 3 Dirge Bullet Card(s) from Draw Pile and Graveyard to hand"},
+            {"cost": 1,"type": "Attack", "effect": "51% Damage x 3, 1 Mark to the target for each Dirge Bullet in hand"},
+            {"cost": 1,"type": "Attack", "effect": "51% Damage x 3, Increase Damage Amount of Dirge Bullet's Extra Attack by 100% for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "51% Damage x 3, Exhause all Dirge Bullet in the Graveyard, increase Damage Amount by 50% for each"}
         ],
         "Flower of Devoured Fate": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}]
+            {"cost": 0,"type": "Skill", "effect": "Discard up to 3 Card(s) from hand, Create Dirge Bullet for each"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust, Discard all other Combatant cards from hand, Create 2 Dirge Bullet for each"},
+            {"cost": 0,"type": "Skill", "effect": "Discard up to 2 Card(s) from hand, For each Discarded Card with cost 1, +40% Damage Amount of next card"},
+            {"cost": 1,"type": "Skill", "effect": "Draw 2, If Dirge Bullet is in hand, Draw 1 additional card(s)"},
+            {"cost": 0,"type": "Skill", "effect": "Grant retrieve to all Dirge Bullet in hand"}]
     },
     "Hugo": {
         "Hunting Instincts": [
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Upgrade", "effect": "Initiation, When an Upgrade or Skill Card of another Combatant is used, 1 Commence the Hunt"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, When an Upgrade or Skill Card of another Combatant is used, 1 Commence the Hunt, 50% Chance to gain an additional 1 Commence the Hunt"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, When an Upgrade or Skill Card of another Combatant is used, 1 Commence the Hunt, When Commence the Hunt is activated, 50% Coordinated Attack on the target"},
+            {"cost": 0,"type": "Upgrade", "effect": "Commence the Hunt for each Skill Card in hand"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, When an Upgrade or Skill Card is used, 1 Commence the Hunt"}
         ],
         "Fan of Daggers": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Haste, 90% Damage x 3 to random enemies, Commence the Hunt for each target Hit"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 90% Damage x 3 to random enemies, 2 Commence the Hunt"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 250% Damage, When Damage is dealt, 100% chance of a random ally performing a Coordinated Attack on the target"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 90% Damage x 3 to random enemies, If in a Commence the Hunt state, increase Damage Amount by 100%"},
+            {"cost": 2,"type": "Upgrade", "effect": "Unique, At the start of the turn, 60% Damage x 2 to random enemies, Commence the Hunt equal to the number of targets hit"}
         ],
         "Quick Fix": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Haste, 120% Damage x 2, If in Commence the Hunt, Draw 1 Attack Card(s)"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 80% Damage x 2, If in Commence the Hunt, add 1 Hit(s)"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 100% Damage x 2, If in Commence the Hunt, Draw 2"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 100% Damage x 2, If in Commence the Hunt, Increase Action Count of all enemies by 1"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 120% Damage, Decrease Commence the Hunt by up to 5, Add 1 Hit for each"}
         ],
         "Dingo Howling": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "150% Shield, 3 Commence the Hunt"},
+            {"cost": 1,"type": "Skill", "effect": "150% Shield, If under Commence the Hunt, +50% Shield, 2 Commence the Hunt"},
+            {"cost": 1,"type": "Skill", "effect": "Upon gaining Commence the Hunt, Draw 1 Attack Card(s) (1 per turn)"},
+            {"cost": 1,"type": "Skill", "effect": "2 Commence the Hunt, Combo: Add another 2 Commence the Hunt"},
+            {"cost": 1,"type": "Skill", "effect": "2 Commence the Hunt, Draw 2 attack card(s)"}]
         },
     "Narja": {
         "Shackles of Hunger": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "36% Defense-Based Damage x 4, Attunement : 6 Voracity"},
+            {"cost": 0,"type": "Attack", "effect": "36% Defense-Based Damage x 2, At the start of the turn, if Voracity was activated 3 or more times in the previous turn, move to hand, Attunement : 1 Voracity"},
+            {"cost": 1,"type": "Attack", "effect": "60% Defense-Based Damage x 3, Add 1 Hit for each 4 Voracity owned (max 3 times)"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Decrease Voracity by max 5, +40% Damage Amount to the next used Attack Card for each amount decreased, If 5 is decreased, 3 Predation"},
+            {"cost": 0,"type": "Skill", "effect": "72% Shield, Decrease Voracity by max 3, Repeat for each amount decreased"}
         ],
         "Bottomless Hunger": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "3 Voracity, The next 2 times Voracity is activated, decrease Cost of 1 random card in hand by 1 for 1 turn"},
+            {"cost": 0,"type": "Skill", "effect": "Decrease Cost of 2 random cards in hand by 1 for 1 turn(s)"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When Voracity is activated 3 times in 1 turn, decrease Cost of 1 random card in hand by 1 until used, (1 time per turn)"},
+            {"cost": 0,"type": "Skill", "effect": "Retain, For 1 turn, +100% Defense-Based Damage"},
+            {"cost": 1,"type": "Skill", "effect": "Lead, 7 Voracity, For 1 turn, each time Voracity is activated, +40% Damage Amount to the next Mealtime"}
         ],
         "Voluntary Control": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "If Voracity is fewer than 6 stacks, gain 9 Voracity, If 6 or more stacks, gain 3 Predation"},
+            {"cost": 0,"type": "Skill", "effect": "If Mealtime is in Draw Pile, move to hand, If in Graveyardm 3 Morale for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "For 2 turn(s), each time Action Count of the target is decreased, 1 Voracity"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, 10 Voracity, Select 1 Attack Card(s), 1 Predation each time that card is moved to hand"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Each time a Basic Attack Card inflicts a Hit 1 Voracity +50% Damage Amount to Basic Attack Cards"}
         ],
         "Domain of Voracity": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Attack", "effect": "120% Defense-Based Damage to all enemies, Increase Tenacity Damage taken of the target by 100% until their next Ravage, and on Ravage, 3 Voracity"},
+            {"cost": 1,"type": "Attack", "effect": "120% Defense-Based Damage to all enemies, For 2 turn(s), +100% Defense-Based Damage taken by the target"},
+            {"cost": 1,"type": "Attack", "effect": "180% Defense-Based Damage to all enemies, When Hitting the target for the next 5 time(s), Heal 40%"},
+            {"cost": 3,"type": "Attack", "effect": "Retain, 384% Defense-Based Damage to all enemies, If granted both Voracity and Predation, activate 1 more time"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Each time Mealtime is used, Heal 200%"}]
     },
     "Yuki": {
         "Prepare to Subdue": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Retain, Draw 1 Attack Card(s) of this unit, Increase Damage Amount of those cards by 40% for 1 turn"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 1 Attack Card(s) of this unit, Increase Damage Amount Attack Cards of this unit by 20% for 1 turn"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 2 Attack Card(s) of this unit, Decrease Damage Amount of those cards by 20% for 1 turn"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 1 Attack Card(s) of this unit, Increase Damage Amount of those cards by 20% for 1 turn, Inspiration: Draw 1 Attack Card(s) of this unit"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 1 Attack Card(s) of this unit, At the start of the next turn, Draw 1 Attack Card(s) of this unit"}
         ],
         "Flash Slash": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""}
+            {"cost": 2,"type": "Attack", "effect": "330% Damage to all enemies, Inspiration: Decrease Cost by 1"},
+            {"cost": 2,"type": "Attack", "effect": "220% Damage to all enemies, Inspiration: Decrease Cost by 2"},
+            {"cost": 2,"type": "Attack", "effect": "220% Damage to all enemies, Inspiration: Add 1 Hit"},
+            {"cost": 2,"type": "Attack", "effect": "Retain, 352% Damage, For each card of this unit Drawn for 1 turn, +90% Damage Amount (max 5)"},
+            {"cost": 3,"type": "Attack", "effect": "363% Damage to all enemies, When used, decrease Cost by 1"}
         ],
         "Trickery Strike": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Retain, 264% Damage, Choose 1 card(s) of this unit in hand, enable Inspiration effect"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, Retrieve, 264% Damage, Enable Inspiration for 1 random card(s) of this unit in hand"},
+            {"cost": 1,"type": "Skill", "effect": "Enable Inspiration for all cards of this unit in hand, For 1 turn(s), when using a card of this unit with an enabled Inspiration, 100% Damage to a random enemy"},
+            {"cost": 1,"type": "Attack", "effect": "198% Damage, Draw 1 card(s) that have Inspiration effect"},
+            {"cost": 1,"type": "Attack", "effect": "330% Damage, Inspiration: Decrease Cost by 1"}
         ],
         "Freezing Blade": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When using a card of this unit with an enabled Inspiration, 140% damage to all enemies"},
+            {"cost": 0,"type": "Upgrade", "effect": "Unique, Initiation, When using a card of this unit with an enabled Inspiration, 90% damage to all enemies"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When using a card of this unit with an enabled Inspiration, 120% damage to a random enemies"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Increase Damage Amount of All-Target Attack Cards of this unit by 40%"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, At the start of the turn, enable Inspiration for 2 random card(s) in hand"}]
     },
     "Chizuru": {
         "Karmic Flames": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Initiation, 165% Damage, 1 Cursed Shackles, Cursed Shackles: Add 2 Hits"},
+            {"cost": 1,"type": "Attack", "effect": "Initiation, 110% Damage, 1 Cursed Shackles, Cursed Shackles: Decrease Cost of the next card of this unit used by 2"},
+            {"cost": 1,"type": "Attack", "effect": "Initiation, 198% Damage, 1 Cursed Shackles, Cursed Shackles: Increase Damage Amount by 150%"},
+            {"cost": 1,"type": "Skill", "effect": "Initiation, 1 Cursed Shackles, Create 1 Shadow of the Moon"},
+            {"cost": 0,"type": "Skill", "effect": "Initiation, Exhaust, 1 Cursed Shackles, When a target inflicted with Cursed Shackles is defeated, create this card"}
         ],
         "Tsukuyomi": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "4 Will-O'-Wisp for each Hit of the next Attack Card of this unit used"},
+            {"cost": 0,"type": "Skill", "effect": "Add 1 Hit(s) to the next Attack Card of this unit used, 2 Will-O'-Wisp for each Hit"},
+            {"cost": 0,"type": "Skill", "effect": "Add 2 Hit(s) to the next Shadow of the Moon, Shadow-of the Moon+ used"},
+            {"cost": 0,"type": "Skill", "effect": "3 Will-O'-Wisp for each Attack Card of this unit in hand"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Lead, When an Attack Card of this unit is used, 2 Will-O'-Wisp"}
         ],
         "Bound At Dusk": [
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Upgrade", "effect": "Initiation, Unique, At the start of the turn, gain Inhibit, Decrease Cost of 2 random card(s) by 1 until used"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, Unique, At the start of the turn, gain Inhibit, When Shadow of the Moon+ is used, decrease Cost of the next 1 card(s) by 1 until used"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, Unique, At the start of the turn, gain Inhibit, Activate 2 random card(s) of other Combatants"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, Unique, At the start of the turn, gain Inhibit, Activate 2  random Lead card(s)"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, Unique, At the start of the turn, gain Inhibit, Decrease Cost of 1 card(s) with the highest Cost by 2 until used"}
         ],
         "Oni Hunt": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Attack", "effect": "Haste, 55% Damage x 4, +100% Damage Amount to the next Bind card used"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 165% Damage x 2, +100% Damage Amount to the next Bind card used"},
+            {"cost": 1,"type": "Attack", "effect": "Haste, 110% Damage x 3, Other than Shadow of the Moon, if there are no other Attack Cards in hand, add 2Hit(s)"},
+            {"cost": 1,"type": "Skill", "effect": "Haste, Create 2 Moonslash, Apply Exhaust to those cards, decrease Cost by 1 until used"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, +80% Damage Amount to Shadow of the Moon+, At the start of the turn, 3 Will-O'-Wisp"}]
     },
     "Haru": {
         "Anchor Shot": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 2,"type": "Attack", "effect": "Pulverize, 440% Damage, +120% Damage Amount for each use of this card (max 10)"},
+            {"cost": 2,"type": "Attack", "effect": "Pulverize, 352% Damage, Combo: Add 1 Hit(s)"},
+            {"cost": 3,"type": "Attack", "effect": "Retain, Pulverize, 385% Damage, Discard all cards of other Combatants, then +150% Damage Amount for each card discarded"},
+            {"cost": 2,"type": "Attack", "effect": "Pulverize, 418% Damage, +80% Damage Amount for each use of this card (max 10), Create this card in Draw Pile (2 time(s) per battle)"},
+            {"cost": 2,"type": "Attack", "effect": "Pulverize, 385% Damage, +80% Damage Amount for each use of this card (max 10), On Critical Hit, move to hand (1 time per turn)"}
         ],
         "Anchor Point": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Apply Retrieve to all Anchor Shots"},
+            {"cost": 0,"type": "Skill", "effect": "Move Anchor Shot from Draw Pile or Graveyard to hand, apply Retain to that card"},
+            {"cost": 0,"type": "Skill", "effect": "Retrieve, Move Anchor Shot from Draw Pile or Graveyard to hand"},
+            {"cost": 0,"type": "Skill", "effect": "Move Anchor Shot from Draw Pile or Graveyard to hand, Increase Damage Amount of that card by 20% for 1 turn until used"},
+            {"cost": 0,"type": "Skill", "effect": "Move Anchor Shot from Draw Pile or Graveyard to hand, +25% Critical Chance to that card for 1 turn until used"}
         ],
         "Power Charge": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 2,"type": "Attack", "effect": "297% Damage to all enemies, If there is only one target, +120% Damage Amount"},
+            {"cost": 2,"type": "Attack", "effect": "Weakness Attack, 297% Damage to all enemies, If there is only one target"},
+            {"cost": 2,"type": "Attack", "effect": "297% Damage to all enemies, Defeat: Activate this card 1 more time (max 1 time)"},
+            {"cost": 2,"type": "Attack", "effect": "264% Damage to all enemies, +30% Damage Amount to the next Attack Card of this unit used for each target hit"},
+            {"cost": 2,"type": "Attack", "effect": "330% Damage to all enemies, Combo: Change Cost of this card to 1"}
         ],
         "Charge Energy": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "Retain, Increase Damage Amount of Attack Cards of this unit by 40% for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Increase Damage Amount of the next Attack Card of this unit used by 50%, and +1 to Tenacity Damage"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, +70% Damage Amount to Attack Cards of this unit for each card of this unit in hand for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Increase Damage Amount of Attack Cards of this unit by 30% for 1 turn, Draw 1 card(s) of this unit"},
+            {"cost": 0,"type": "Upgrade", "effect": "Unique, Increases Damage Amount of Attack Cards of this unit by 20%"}]
     },
     "Kayron": {
         "Echo of Futility": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": "X","type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "360% Damage, Create 3 Futility"},
+            {"cost": 1,"type": "Attack", "effect": "240% Damage, Create 2 Futility, +20% Damage Amount for each Exhausted Futility"},
+            {"cost": 1,"type": "Attack", "effect": "240% Damage, Create 2 Futility, Apply Ephemeral on those cards"},
+            {"cost": "X","type": "Attack", "effect": "50% Damage, +150% Damage Amount for each X, Create X+1 Futility"},
+            {"cost": 0,"type": "Attack", "effect": "30% Damage, Create 2 Futility, +30% Damage Amount for each Futility created during this battle"}
         ],
         "Brand of Annihilation": [
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 7,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 3,"type": "Attack", "effect": "450% Damage to all enemies, When a card is Exhausted, decrease Cost of this card by 1 for 1 turn until used"},
+            {"cost": 3,"type": "Attack", "effect": "300% Damage x 2 to a random enemy, When a card is Exhausted, decrease Cost of this card by 1 for 1 turn until used"},
+            {"cost": 7,"type": "Attack", "effect": "500% Damage to all enemies, Decrease Cost for each Exhausted Futility"},
+            {"cost": 1,"type": "Attack", "effect": "200% Damage to all enemies, +40% Damage Amount for each card Exhausted this turn"},
+            {"cost": 2,"type": "Attack", "effect": "300% Damage to all enemies, When a card is Exhausted this turn, 3 Agony on all enemies"}
         ],
         "Black Hole": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 2,"type": "Attack", "effect": "360% Damage, Activate 2 Futility in hand"},
+            {"cost": 2,"type": "Attack", "effect": "360% Damage, +60% Damage Amount for each Exhausted Futility"},
+            {"cost": 2,"type": "Attack", "effect": "60% Damage to a random enemy , Add 1 Hit for each Exhausted Futility (max 5 times)"},
+            {"cost": 2,"type": "Attack", "effect": "300% Damage, Add 1 Hit for each 5 Exhausted Futility (max 2 times)"},
+            {"cost": 1,"type": "Upgrade", "effect": "When Futility is Exhausted, 100% Fixed Damage to a random enemy"}
         ],
         "Oath of Vanity": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When Futility is created, change those cards into 1-Cost Attack Cards with 150% Damage and Heal effects"},
+            {"cost": 0,"type": "Upgrade", "effect": "Unique, When Futility is created, change those cards into 1-Cost Attack Cards with 100% Damage and Heal effects"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When Futility is created, change those cards into 1-Cost Attack Cards with 200% Damage"},
+            {"cost": 0,"type": "Upgrade", "effect": "Exhaust, Retain, Exhaust all Futility, Status Ailment, and Curse Cards in hand, Draw for each"},
+            {"cost": 0,"type": "Upgrade", "effect": "When 2 Futility cards are Exhausted, 2 Agony on all enemies"}]
     },
     "Nine": {
         "Hew": [
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""}
+            {"cost": 3,"type": "Attack", "effect": "Unique, Initiation, Exhaust, Ephemeral, 480% Defense-Based Damage, 240% Shield, Incinerate: Create 1 Hew (Ironclad) Lv. 1"},
+            {"cost": 3,"type": "Attack", "effect": "Unique, Initiation, Exhaust, Ephemeral, 360% Defense-Based Damage, Incinerate: Create 1 Hew (Extreme) Lv. 1"},
+            {"cost": 3,"type": "Attack", "effect": "Unique, Initiation, Exhaust, Ephemeral, Retain, 480% Defense-Based Damage, Incinerate: Create 1 Hew (Flash) Lv. 1"},
+            {"cost": 3,"type": "Attack", "effect": "Unique, Initiation, Exhaust, Ephemeral, 480% Defense-Based Damage to all enemies, Decrease Damage Amount by 10% for each target, Incinerate: Create 1 Hew (Massacre) Lv. 1"},
+            {"cost": 3,"type": "Attack", "effect": "Unique, Initiation, Exhaust, Ephemeral, 480% Defense-Based Damage, On ally Counterattack, activate this card, Incinerate: Create 1 Hew (Ambush) Lv. 1"}
         ],
         "Experience Strike": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "252% Defense-Based Damage, 20% DMG-Based Shield, Increase Damage Amount of Exhaust cards by 30% for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "252% Defense-Based Damage, 20% DMG-Based Shield, If a card was Exhausted this turn, increase Damage Amount of this card by 30% for 1 turn until used"},
+            {"cost": 1,"type": "Attack", "effect": "252% Defense-Based Damage, 20% DMG-Based Shield, Increase Shield Gain Amount of Skill cards by 30% for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "168% Defense-Based Damage, 20% DMG-Based Shield, +60% Damage Amount for each Exhaust card in hand"},
+            {"cost": 1,"type": "Attack", "effect": "252% Defense-Based Damage, 20% DMG-Based Shield, For 1 turn, when an Exhaust card is activated, 1 Counterattack"}
         ],
         "Fatal Strike": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 5,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "252% Defense-Based Damage, 30% DMG-Based Shield, Increase Damage Amount by 20% for each Cost of the highest-Cost Exhaust card in hand, then Exhaust that card"},
+            {"cost": 2,"type": "Attack", "effect": "312% Defense-Based Damage, 20% DMG-Based Shield, Increase Damage Amount by 20% for each Cost of the highest-Cost Exhaust card in hand, then Exhaust that card"},
+            {"cost": 5,"type": "Skill", "effect": "Unique, Ignition, Retain, Change Hew in hand to its final level"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust 2 random Exhaust cards of other Combatants in hand, For each card Exhausted through an ability, increase Damage Amount of the next used Attack Card of this unit by 30% until used"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, 252% Defense-Based Damage, Increase Damage Amount by 80% for each ally owning Counterattack"}
         ],
         "Counterblade": [
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 0,"type": "Upgrade", "effect": "Unique, When a card is Exhausted, 1 Honed Edge"},
+            {"cost": 0,"type": "Upgrade", "effect": "Unique, Increase Shield Gain Amount by 15%, and when Shield is gained through an ability, 1 Honed Edge"},
+            {"cost": 0,"type": "Upgrade", "effect": "Initiation, Unique, When Shield is gained through an ability, 1 Honed Edge"},
+            {"cost": 0,"type": "Upgrade", "effect": "Unique, When Counterattack is gained, 1 Honed Edge+"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, At the start of the turn, activate Hew in Hand 1 time(s)"}]
     },
     "Serenial": {
         "Homing Laser": [
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""}
+            {"cost": 0,"type": "Attack", "effect": "192% Damage, On Ravage, Move to hand, Destroy: Add 1 Hit(s)"},
+            {"cost": 0,"type": "Attack", "effect": "192% Damage, 3 Afterglow, On Ravage, Move to hand"},
+            {"cost": 1,"type": "Attack", "effect": "192% Damage, 2 Afterglow, Create 2 Homing Laser L in Discard Pile"},
+            {"cost": 0,"type": "Attack", "effect": "132% Damage, 1 Afterglow, On Ravage or at the start of the turn, Move to hand"},
+            {"cost": 0,"type": "Attack", "effect": "192% Damage, 2 Afterglow, Move all Homing Laser L in Graveyard to hand"}
         ],
         "Plasma Missle": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "216% Damage, 1 Tenacity Damage, If the target is not Ravaged, activate 1 more time"},
+            {"cost": 1,"type": "Attack", "effect": "216% Damage, +60% Damage Amount for each decreased Tenacity of the target (max 10)"},
+            {"cost": 1,"type": "Attack", "effect": "144% Damage, 2 Instinct Weakness, +60% Damage Amount to Homing Laser for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "144% Damage, Create 3 Homing Laser L in Draw Pile"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, At the end of the turn, 50% Damage to a random enemy, +30% Damage Amount for each Homing Laser Moved to hand for 1 turn(s)"}
         ],
         "Shining Core": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": "X","type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Create 3 Homing Laser L"},
+            {"cost": 1,"type": "Skill", "effect": "Create 2 Homing Laser L, increase Exhaust of those cards by 2"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, Create 2 Homing Laser L, On Ravage, create 2 Homing Laser L"},
+            {"cost": "X","type": "Skill", "effect": "Create X+1 Homing Laser L Apply Haste to those cards"},
+            {"cost": 1,"type": "Upgrade", "effect": "Select and create 1 Homing Laser with their own distinct Epiphanies"}
         ],
         "Cobalt Light": [
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""}]
+            {"cost": 3,"type": "Attack", "effect": "216% Damage x 4 to random enemies, 1 Tenacity Damage for each Hit, On Ravage with this card, decrease Cost by 1"},
+            {"cost": 3,"type": "Attack", "effect": "Retain, 144% Damage x 4 to random enemies, 1 Tenacity Damage for each Hit, Retain: Add 1 Hit until use (max 5 times)"},
+            {"cost": 2,"type": "Attack", "effect": "144% Damage x 4 to random enemies, Create 1 Homing Laser L for each target Hit"},
+            {"cost": 1,"type": "Attack", "effect": "144% Damage x 4 to random enemies, Add 1 Hit for each Homing Laser in hand"},
+            {"cost": 3,"type": "Attack", "effect": "Weakness Attack, 144% Damage x 4 to random enemies, Ravage: Activate 1 more time"}]
     },
     "Tiphera": {
         "Quantum Seed": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Heal 165%, Create 3 Archetype card(s) in in Draw Pile, Draw 1 of them"},
+            {"cost": 0,"type": "Skill", "effect": "Heal 110%, Select 1 Archetype card, Create 1 in hand and Draw Pile each"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 1, Predict which Archetype card will be created, Create 1 Archetype card, If predicted correctly, create the rest in Draw Pile"},
+            {"cost": 1,"type": "Skill", "effect": "Create 3 Archetype card(s)in Draw Pile, Draw 1 of them, Activate Retain effect 2 times on a 1 random card(s) of this unit in hand"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Create 1 Archetype card(s), When AP is 0, create 1 Archetype card in hand and Draw Pile each (1 time per turn)"}
         ],
         "Form Convergence": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Retain, Draw 3 Archetype card(s), Double a random effect of those cards for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Draw 4 Archetype card(s), Select and Exhaust 1 Exhaust card in hand"},
+            {"cost": 0,"type": "Skill", "effect": "Retain, Change all Archetype cards in hand into a different Archetype card, Retain: Draw 1 Archetype card(s)"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Select and Exhaust up to 3 Exhaust cards from all cards, Draw 1 Exhaust card for each Exhausted."},
+            {"cost": 1,"type": "Skill", "effect": "Draw 1 Archetype card, Repeat until the same card is Drawn consecutively (max 6 time(s))"}
         ],
         "Creation and Destruction": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 5,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 5,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "198% Defense-Based Damage, 110% Shield, Heal 110%, Harmonization: Double all effects"},
+            {"cost": 5,"type": "Attack", "effect": "605% Defense-Based Damage, When a card is Exhausted, decrease Cost of this card by 1 for 1 turn until used"},
+            {"cost": 2,"type": "Attack", "effect": "Retain, 176% Defense-Based Damage, 44% Shield, Heal 44%, Retain: Increase all effects by 100% until activated (max 4 times)"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When AP is 0, create 1 Creation and Destruction, Decrease Cost of those cards by 1 and apply Exhaust (1 time per turn)"},
+            {"cost": 5,"type": "Attack", "effect": "165% Defense-Based Damage for each Cost of this card, When a card is Exhausted, randomly change the Cost of this card from 1 - 9"}
         ],
         "Dual Creation": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When 2 Archetype cards are created, create 1 identical card in Discard Pile"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When 3 Archetype cards are created, create 1 identical card in hand, Apply Retain to that card"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When Archetype: ⬜ is activated, create 1 different Archetype card in Discard Pile"},
+            {"cost": 1,"type": "Skill", "effect": "Unique, Create 1 of each Archetype card, Create 1 of the next Archetype card Exhausted"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When an Archetype card is moved to hand, duplicate that card and remove a random effect (5 time(s) per turn)"}]
     },
     "Nia": {
         "G Chord": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "2 Decibel, Check the top 3 card(s) of the Draw Pile, Choose one to activate"},
+            {"cost": 1,"type": "Skill", "effect": "2 Decibel, Activate the top 1 card(s) of the Draw Pile, Decibel equal to that card's Cost"},
+            {"cost": 1,"type": "Skill", "effect": "2 Decibel, The Combatant who owns the top card of the Draw Pile preforms 120% Extra Attack to a random enemy, then activates that card"},
+            {"cost": 1,"type": "Skill", "effect": "3 Decibel, Discard the top 3 card(s) of the Draw Pile"},
+            {"cost": 2,"type": "Skill", "effect": "Activate the top 1 card(s) of the Draw Pile, If in a Decibel state, decrease Decibel state, decrease Decibel by 1, activate 1 more card(s)"}
         ],
         "Mute Accent": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Discard 1 random card(s), The owner of the card(s) performs 250% Extra Attack to a random enemy"},
+            {"cost": 1,"type": "Skill", "effect": "Discard 1, The owner of the card(s) performs 200% Extra Attack to a random enemy"},
+            {"cost": 1,"type": "Skill", "effect": "Heal 183% Activate 1 card(s) with lowest Cost"},
+            {"cost": 2,"type": "Upgrade", "effect": "At the start of the turn, Discard 1 150% Extra Attack to a random enemy from the Combatant who owned those cards"},
+            {"cost": 1,"type": "Skill", "effect": "Discard all highest Cost card(s), The Combatant who owns the card(s) performs 100% Extra Attack to a random enemy"}
         ],
         "Soul Rip": [
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 2,"type": "Skill", "effect": "Retain, Heal 244%, 2 Decibel, 2 Elasticity, Activate even when Discarded"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Heal 183%, when a card in hand is Discarded, Heal 100%, and 1 Decibel for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, When a card in hand is discarded, the Combatant who owns the card performs 100% Extra Attack to a random enemy for 1 turn"},
+            {"cost": 2,"type": "Skill", "effect": "Heal 244% 2 Decibel Activate the next Decibel effect 1 more time(s)"},
+            {"cost": 2,"type": "Upgrade", "effect": "When a card is Discarded , 1 Decibel and 1 Elasticity"}
         ],
         "Adagio": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 3,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}]
+            {"cost": 0,"type": "Skill", "effect": "Draw 2, Discard 2, Move discarded card that is effected to top of the Draw Pile"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 1, Discard up to 1 card(s), If a card was Discarded, create 1 Adagio with Exhaust"},
+            {"cost": 1,"type": "Skill", "effect": "Draw 1, 1 Decibel equal to that card's Cost, Discard 1, Heal 100% equal to that card's Cost"},
+            {"cost": 3,"type": "Skill", "effect": "Discard the top 2 card(s)of Draw Pile, Draw 2, Decrease Cost by 1 for each Decibel held"},
+            {"cost": 0,"type": "Skill", "effect": "Discard 1, Draw 2 card(s) of the Combatant who owns the card"}]
     },
     "Selena":{
         "High-Power Scope": [
-            {
-                "cost": 1,
-                "type": "Skill",
-                "effect": "2 Mark. If the Anticipated Action of the target is in an Attack state, add 2 Mark."
-            },
-            {
-                "cost": 1,
-                "type": "Upgrade",
-                "effect": "When using an Attack Card, 1 Mark to the target."
-            },
-            {
-                "cost": 1,
-                "type": "Skill",
-                "effect": "2 Mark. +50% Mark Damage for 1 turn."
-            },
-            {
-                "cost": 0,
-                "type": "Skill",
-                "effect": "When another combatant's Attack Card is used, 100% Coordinated Attack for 1 turn."
-            },
-            {
-                "cost": 1,
-                "type": "Upgrade",
-                "effect": "At the start of the turn, 1 Mark to all enemies."
-            }
+            {"cost": 1, "type": "Skill", "effect": "2 Mark. If the Anticipated Action of the target is in an Attack state, add 2 Mark."},
+            { "cost": 1, "type": "Upgrade", "effect": "When using an Attack Card, 1 Mark to the target."},
+            { "cost": 1, "type": "Skill", "effect": "2 Mark. +50% Mark Damage for 1 turn."},
+            { "cost": 0, "type": "Skill", "effect": "When another combatant's Attack Card is used, 100% Coordinated Attack for 1 turn."},
+            { "cost": 1, "type": "Upgrade", "effect": "At the start of the turn, 1 Mark to all enemies."}
         
         ],
         "Target Spotted": [
-            {
-                "cost": 1,
-                "type": "Attack",
-                "effect": "100% Damage. Attunement: 200% Damage to a random enemy."
-            },
-            {
-                "cost": 1,
-                "type": "Attack",
-                "effect": "150% Damage. 2 Mark. If the target is affected by Mark, +2 Mark."
-            },
-            {
-                "cost": 1,
-                "type": "Skill",
-                "effect": "150% Shield. 2 Mark to all enemies."
-            },
-            {
-                "cost": 1,
-                "type": "Skill",
-                "effect": "150% Shield. Attunement: Draw 1."
-            },
-            {
-                "cost": 1,
-                "type": "Upgrade",
-                "effect": "On Ravage, 200% Coordinated Attack."
-            }
-        
+            { "cost": 1, "type": "Attack", "effect": "100% Damage. Attunement: 200% Damage to a random enemy."},
+            { "cost": 1, "type": "Attack", "effect": "150% Damage. 2 Mark. If the target is affected by Mark, +2 Mark."},
+            { "cost": 1, "type": "Skill", "effect": "150% Shield. 2 Mark to all enemies."},
+            { "cost": 1, "type": "Skill", "effect": "150% Shield. Attunement: Draw 1."},
+            { "cost": 1, "type": "Upgrade", "effect": "On Ravage, 200% Coordinated Attack."}
         ],
         "Drone Bombing": [
-            {
-                "cost": 1,
-                "type": "Attack",
-                "effect": "120% Damage to all enemies, 2 Passion Weakness."
-            },
-            {
-                "cost": 1,
-                "type": "Attack",
-                "effect": "120% Damage to all enemies. Combo: 2 Mark to all enemies."
-            },
-            {
-                "cost": 0,
-                "type": "Attack",
-                "effect": "120% Damage to all enemies. +40% Damage per Passion Attack Card used this turn."
-            },
-            {
-                "cost": 1,
-                "type": "Attack",
-                "effect": "For 1 turn, when performing a Attack Weakness, 100% chance to trigger Coordinated Attack on the target."
-            },
-            {
-                "cost": 1,
-                "type": "Upgrade",
-                "effect": "When using a Passion Attack card, 50% Coordinated Attack to the target."
-            }
-        
+            { "cost": 1, "type": "Attack", "effect": "120% Damage to all enemies, 2 Passion Weakness."},
+            { "cost": 1, "type": "Attack", "effect": "120% Damage to all enemies. Combo: 2 Mark to all enemies."},
+            { "cost": 0, "type": "Attack", "effect": "120% Damage to all enemies. +40% Damage per Passion Attack Card used this turn."},
+            { "cost": 1, "type": "Attack", "effect": "For 1 turn, when performing a Attack Weakness, 100% chance to trigger Coordinated Attack on the target."},
+            { "cost": 1, "type": "Upgrade", "effect": "When using a Passion Attack card, 50% Coordinated Attack to the target."}
         ],
         "Tactical Maneuver": [
-            {
-                "cost": 1,
-                "type": "Skill",
-                "effect": "225% Shield. 3 Tenacity Damage."
-            },
-            {
-                "cost": 1,
-                "type": "Attack",
-                "effect": "150% Damage. Increase Tenacity Damage of this card by 150%."
-            },
-            {
-                "cost": 1,
-                "type": "Skill",
-                "effect": "225% Shield. 2 Tenacity Damage. 2 Mark on enemies in Ravage state.​"
-            },
-            {
-                "cost": 0,
-                "type": "Skill",
-                "effect": "[Retain] If the target is in Ravaged state, recharge Tenacity."
-            },
-            {
-                "cost": 1,
-                "type": "Skill",
-                "effect": "1 Tenacity Damage to all enemies and 1 Mark."
-            }
+            { "cost": 1, "type": "Skill", "effect": "225% Shield. 3 Tenacity Damage."},
+            { "cost": 1, "type": "Attack", "effect": "150% Damage. Increase Tenacity Damage of this card by 150%."},
+            { "cost": 1, "type": "Skill", "effect": "225% Shield. 2 Tenacity Damage. 2 Mark on enemies in Ravage state."},
+            { "cost": 0, "type": "Skill", "effect": "[Retain] If the target is in Ravaged state, recharge Tenacity."},
+            { "cost": 1, "type": "Skill", "effect": "1 Tenacity Damage to all enemies and 1 Mark."}
         ]
     },
     "Tressa": {
         "Unsheathe Dagger": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Create 2 Shadow Dagger"},
+            {"cost": 1,"type": "Skill", "effect": "Create 3 Shadow Dagger"},
+            {"cost": 1,"type": "Upgrade", "effect": "Create 1 Shadow Dagger, At the start of the turn, create 1 Shadow Dagger"},
+            {"cost": 1,"type": "Skill", "effect": "Create 2 Shadow Dagger, Increase the Agony effect of the created Shadow Dagger by 2"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust, Create 4 Shadow Dagger"}
         ],
         "Curse": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "For 1 turn, when cards are used, 1 Agony on the random enemies"},
+            {"cost": 0,"type": "Skill", "effect": "For 2 turns, when Attack Cards are used, 1 Agony on the target"},
+            {"cost": 1,"type": "Skill", "effect": "Lead, 4 Agony x 2 on random enemies"},
+            {"cost": 1,"type": "Upgrade", "effect": "Initiation, 2 Agony on all enemies, At the start of the turn, 2 Agony on all enemies"},
+            {"cost": 2,"type": "Upgrade", "effect": "When Agony is applied through a card, add 1 Agony on the target"}
         ],
         "Shadow Reload": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": "X","type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Retain, 91% Damage to all enemies, 2 Agony, Exhaust all Shadow Dagger in hand then repeat for each Exhausted"},
+            {"cost": 0,"type": "Skill", "effect": "Heal 171%, Create 1 Advanced Shadow Dagger"},
+            {"cost": "X","type": "Skill", "effect": "114% Heal x X, Create X cards, each randomly created to be either Shadow Dagger or Advanced Shadow Dagger"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust all Shadow Dagger, then create Advanced Shadow Dagger for each Exhausted"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust 2, Discard all cards, Create Shadow Dagger for each Discarded"}
         ],
         "Vital Attack": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}]
+            {"cost": 2,"type": "Attack", "effect": "Lead, 171% Damage x 3"},
+            {"cost": 2,"type": "Attack", "effect": "137% Damage x 3 If the target is in an Agony state +70% Damage Amount"},
+            {"cost": 1,"type": "Attack", "effect": "91% Damage x 3, 2~6 Agony"},
+            {"cost": 2,"type": "Attack", "effect": "228% Damage x 2, When Agony on the target is 3 or more activate 1 more time"},
+            {"cost": 2,"type": "Attack", "effect": "171% Damage x 3, +10% Damage Amount for each Agony on the target"}]
     },
     "Amir": {
         "Hovering Attack": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "3 Damage Reduction, 4 Metallization"},
+            {"cost": 1,"type": "Skill", "effect": "2 Damage Reduction, 2 Metallization, 2 Counterattack"},
+            {"cost": 2,"type": "Skill", "effect": "Celestial, 3 Damage Reduction, 3 Metallization"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust, 3 Damage Reduction, 5 Metallization"},
+            {"cost": 1,"type": "Upgrade", "effect": "2 Metallization, At the start of the turn, 1 Metallization"}
         ],
         "Metal Pierce": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "134% Defense-Based Damage x 2, If in Metallization state, decrease Metallization by 1, add 1 Hit inflict 2 Vulnerable"},
+            {"cost": 1,"type": "Attack", "effect": "244% Defense-Based Damage, Decrease Metallization by up to 2, +150% Damage Amount for each"},
+            {"cost": 1,"type": "Attack", "effect": "110% Defense-Based Damage x 2, 1 Vulnerable, 2 Metallization"},
+            {"cost": 2,"type": "Attack", "effect": "134% Defense-Based Damage x 2, Vulnerable 1, On Recover decrease Cost by 1 for 1 turn until used"},
+            {"cost": 1,"type": "Attack", "effect": "110% Defense-Based Damage x 2, If in Metallization state, decrease Metallization by 1 and inflict 2 Vulnerable, 2 Weaken"}
         ],
         "Metal Extraction": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "2 Metallization, Increase Shield Gain Amount of Skill Cards by 30% for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "3 Metallization, For 1 turn, 3 Resolve"},
+            {"cost": 1,"type": "Skill", "effect": "2 Metallization, For 1 turn, When using Skill Cards, 1 Metallization (max 2 times)"},
+            {"cost": 2,"type": "Skill", "effect": "Celestial, 2 Metallization, For 1 turn, 3 Resolve"},
+            {"cost": 1,"type": "Skill", "effect": "3 Metallization, For 1 turn, +30% Metallization Damage Amount"}
         ],
         "Full Metal Hurricane": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}]
+            {"cost": 2,"type": "Attack", "effect": "244% Defense-Based Damage to all enemies, For 1 turn, Metallization targets all enemies and +60% Damage Amount"},
+            {"cost": 2,"type": "Attack", "effect": "244% Defense-Based Damage to all enemies, For 1 turn, add 1 Hit and +50% Damage Amount to Metallization"},
+            {"cost": 2,"type": "Upgrade", "effect": "244% Defense-Based Damage to all enemies, At the end of the turn, decrease Metallization by up to 2, 120% Defense-Based Damage to all enemies for each"},
+            {"cost": 2,"type": "Attack", "effect": "98% Defense-Based Damage x 4 to all enemies, For 1 turn, Metallization targets all enemies and +20% Damage Amount"},
+            {"cost": 2,"type": "Attack", "effect": "122% Defense-Based Damage x 3 to all enemies, Decrease Metallization by up to 2, Add 1 Hit for each"}]
     },
     "Lucas": {
         "Extended Magazine": [
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Upgrade", "effect": "Initiation, At the start of the turn, create 1 Launcher Bullet"},
+            {"cost": 1,"type": "Upgrade", "effect": "Lead, At the start of the turn, create 2 Launcher Bullet"},
+            {"cost": 1,"type": "Upgrade", "effect": "Lead, At the start of the turn, create 1 Launcher Bullet, With a 50% chance, decrease Cost of those cards by 1 for 1 turn until used"},
+            {"cost": 1,"type": "Upgrade", "effect": "Lead, At the start of the turn, create 1 Launcher Bullet, 50% chance to Draw 1"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust, Create 5 Launcher Bullet"}
         ],
         "S.S.S.": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "224% Damage, For 1 turn, +40% Bullet card Damage"},
+            {"cost": 1,"type": "Attack", "effect": "For 2 turn, +40% Bullet card Damage"},
+            {"cost": 1,"type": "Attack", "effect": "168% Damage, +60% Damage per Bullet card in hand"},
+            {"cost": 1,"type": "Attack", "effect": "168% Damage, +120% Damage of the next Bullet card"},
+            {"cost": 1,"type": "Attack", "effect": "112% Damage, For 1 turn, when using Bullet cards, 50% Fixed Damage to a random enemy"}
         ],
         "Flame Thrower": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 2,"type": "Attack", "effect": "202% Damage to all enemies, Draw 1, Discard 2, Create Launcher Bullet equal to the number discarded"},
+            {"cost": 2,"type": "Attack", "effect": "353% Damage to all enemies, Draw 1, Discard 1"},
+            {"cost": 2,"type": "Attack", "effect": "302% Damage to all enemies, If Critical Hit, 168% Damage to all enemies"},
+            {"cost": 2,"type": "Attack", "effect": "Exhaust up to 2 Bullet(s) in hand, 302% Damage to all enemies, Increase Damage Amount by 50% for each Exhausted card"},
+            {"cost": 2,"type": "Attack", "effect": "302% Damage to all enemies, Create Launcher Bullet equal to number of targets hit"}
         ],
         "Flashbang": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Attack", "effect": "202% Damage to all enemies, 2 Weaken, If the target has Shield, +75% Damage"},
+            {"cost": 1,"type": "Skill", "effect": "For 1 turn, when hitting a target with Shield, +50% Damage"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, 202% Damage to all enemies, 2 Passion Weakness"},
+            {"cost": 1,"type": "Attack", "effect": "202% Damage to all enemies, 2 Mark, If the target has Shield, +50% Damage"},
+            {"cost": 1,"type": "Upgrade", "effect": "When hitting a target that has Shield increase Damage Amount by 30%"}]
     },
     "Maribell": {
         "Resoute Blitz": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Pulverize, 239% Defense-Based Damage, 1 Counterattack, When Damage is inflicted, add 1 Counterattack"},
+            {"cost": 1,"type": "Attack", "effect": "Pulverize, 160% Defense-Based Damage, 2 Counterattack"},
+            {"cost": 2,"type": "Attack", "effect": "Pulverize, 239% Defense-Based Damage, Counterattack equal to number of targets Damaged"},
+            {"cost": 1,"type": "Attack", "effect": "Pulverize, 239% Defense-Based Damage, Increases Damage Amount by 30% of Shield held"},
+            {"cost": 2,"type": "Upgrade", "effect": "At the start of the turn, 1 Counterattack, 210% Defense-Based Damage to random enemies"}
         ],
         "Maribell Shelter MK.II": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Pulverize, 114% Defense-Based Damage to all enemies, 100% DMG-Based Shield"},
+            {"cost": 1,"type": "Attack", "effect": "Pulverize, 171% Defense-Based Damage, 100% DMG-Based Shield"},
+            {"cost": 2,"type": "Attack", "effect": "Pulverize, 319% Defense-Based Damage, 100% DMG-Based Shield"},
+            {"cost": 2,"type": "Attack", "effect": "Pulverize, 171% Defense-Based Damage, +50% Damage for each of the character's Counterattack"},
+            {"cost": 0,"type": "Attack", "effect": "Pulverize, 114% Defense-Based Damage, 100% DMG-Based Shield"}
         ],
         "Wolves' Dome": [
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Upgrade", "effect": "Initiation, 2 Counterattack, At the start of the turn, 1 Counterattack"},
+            {"cost": 1,"type": "Upgrade", "effect": "2 Counterattack, At the start of the turn, 1 Counterattack, 50% Fixed Shield"},
+            {"cost": 1,"type": "Upgrade", "effect": "2 Counterattack, At the start of the turn, 2 Counterattack"},
+            {"cost": 0,"type": "Skill", "effect": "2 Counterattack, 2 Resolve for 1 turn"},
+            {"cost": 2,"type": "Upgrade", "effect": "Lead, At the start of the turn, 2 Counterattack, +20% Counterattack Damage"}
         ],
         "Oh... I see": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "171% Shield, 1 Counterattack, 2 Weaken to all enemies"},
+            {"cost": 1,"type": "Skill", "effect": "171% Shield, 2 Counterattack"},
+            {"cost": 1,"type": "Skill", "effect": "2 Counterattack, 2 Weaken to all enemies"},
+            {"cost": 1,"type": "Upgrade", "effect": "At the end of the turn, Fixed Damage equal to 50% of Shield owned to the enemy with the lowest HP"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, At the start of the turn, 25% Fixed Shield equal to number of the own Counterattack"}]
     },
     "Mika": {
         "Source of Water": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Heal 183%, Gain 1 AP, 1 Wave"},
+            {"cost": 1,"type": "Skill", "effect": "Heal 183%, Gain 2 AP, On recover, decrease Cost by 1 for 1 turn until used"},
+            {"cost": 0,"type": "Skill", "effect": "Retain, Heal 183%, Gain 1 AP, Increase Heal Amount of the next card used by 50%"},
+            {"cost": 0,"type": "Skill", "effect": "Heal 183%, Gain 1 AP, Decrease Stress of allies by 2"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Heal 122%, Gain 3 AP"}
         ],
         "Blessing of Waves": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Retain, Heal 183%, Increase Heal Amount by 30% for each AP, Gain Shield equal to Heal Amount overflow"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Heal 183%, Increase Heal Amount by 30% for each AP, 1 Wave"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Heal 183%, Increase Heal Amount of the next card used by 20% for each AP"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Heal 183%, Inflict Damage equal to Heal Amount to a random enemy"},
+            {"cost": 0,"type": "Skill", "effect": "Finale, Heal 61%, Heal Amount +50% for each AP used this turn"}
         ],
         "Tactical Analysis": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Heal 61%, 1 Wave, +50% Heal Amount for 2 turn"},
+            {"cost": 0,"type": "Skill", "effect": "2 Wave, +50% Heal Amount for 1 turn"},
+            {"cost": 0,"type": "Skill", "effect": "2 Wave, +100% Heal Amount for 1 turn"},
+            {"cost": 0,"type": "Skill", "effect": "When own card is used, 1 Wave, for 1 turn"},
+            {"cost": 0,"type": "Upgrade", "effect": "2 Wave, +50% Heal Amount"}
         ],
         "Whirlpool": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 4,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}]
+            {"cost": 2,"type": "Attack", "effect": "244% Damage to all enemies, Heal 100% for each target hit"},
+            {"cost": 1,"type": "Attack", "effect": "244% Damage to all enemies, Wave 1 for each target hit"},
+            {"cost": 2,"type": "Attack", "effect": "244% Damage to all enemies, Increase Heal Amount of the next card used by 20% for each target hit"},
+            {"cost": 4,"type": "Attack", "effect": "366% Damage to all enemies, If Recovered, decrease Cost by 1 until used"},
+            {"cost": 2,"type": "Attack", "effect": "Heal 122%, 122%(244%) Damage to all enemies, Increase Damage Amount equal to Heal Amount of this card"}]
     },
     "Beryl": {
         "Opening Found": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Retain, 239% Damage, Retain: Add 1 Hit(s) for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, 296% Damage, Retain: Change Cost to 0"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, 125% Damage, Retain: Add 2 Hit(s) for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, 205% Damage, Retain: +80% Damage Amount"},
+            {"cost": 1,"type": "Upgrade", "effect": "When a card of this unit is Retained, 150% Extra Attack to random enemies"}
         ],
         "Charged Shot": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 3,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 2,"type": "Attack", "effect": "Retain, 410% Damage, Retain: +180% Damage Amount"},
+            {"cost": 1,"type": "Attack", "effect": "Retain, 274% Damage, Combo: +120% Damage Amount"},
+            {"cost": 3,"type": "Attack", "effect": "Retain, 570% Damage, Retain: Decrease Cost by 1 until used"},
+            {"cost": 2,"type": "Attack", "effect": "Retain, 410% Damage, Retain: +240% Damage Amount, (max 1 time)"},
+            {"cost": 2,"type": "Attack", "effect": "Retain, 160% Damage x 2, Retain: +80% Damage Amount"}
         ],
         "Guilty Pleasure": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Draw 3, Morale 1"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Draw 3, Decrease Cost of 1 random card of this unit in hand by 1"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Draw 3, At the start of the next turn, Draw 2"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Draw 1, Activate all Retain effects of cards of this unit in hand"},
+            {"cost": 0,"type": "Skill", "effect": "Unique, Exhaust 2, Draw 3"}
         ],
         "Unlimited Firepower": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "171% Shield, +120% Damage Amount to the next Attack Card of this unit used"},
+            {"cost": 1,"type": "Skill", "effect": "+80% Damage Amount to Attack Cards of this unit for 1 turn"},
+            {"cost": 1,"type": "Skill", "effect": "+160% Damage Amount to the next Attack Card of this unit used"},
+            {"cost": 1,"type": "Skill", "effect": "171% Shield, +80% Damage Amount to the next Attack Card used"},
+            {"cost": 1,"type": "Upgrade", "effect": "Increase Damage Amount of Attacks Cards of this unit by 30%"}]
     },
     "Cassius": {
         "Pop Eyed Popper": [
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Upgrade", "effect": ""}
+            {"cost": 0,"type": "Upgrade", "effect": "Initiation, Start a random 1 out of 4 Quests"},
+            {"cost": 0,"type": "Upgrade", "effect": "Start a random 1 out of 4 Quests, Create Quest Card, remove Ephemeral, apply Retain"},
+            {"cost": 0,"type": "Upgrade", "effect": "Start a random 1 out of 4 Quests, When the Quest is completed , create a stronger Quest Card"},
+            {"cost": 0,"type": "Upgrade", "effect": "Choose 1 out of 4 Quests to start"},
+            {"cost": 0,"type": "Upgrade", "effect": "Start a random 1 out of 4 Quests, When the Quest is completed replace it with another random Quest"}
         ],
         "Devil Dice": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "228% Damage, Create 1 Quest Card(s)"},
+            {"cost": 1,"type": "Attack", "effect": "Retrieve 3, 182% Damage, Draw 1"},
+            {"cost": 1,"type": "Attack", "effect": "182% Damage to all enemies, Draw for each target hit"},
+            {"cost": 1,"type": "Attack", "effect": "274% Damage, Draw 2, Discard 2"},
+            {"cost": 0,"type": "Attack", "effect": "Draw 1, 91% Damage to all enemies equal to that card's Cost"}
         ],
         "Shuffle": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Exhaust 2, Discard all cards in hand, Draw for each Discarded"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust, Discard any number of cards in hand, Draw for each Discarded"},
+            {"cost": 1,"type": "Skill", "effect": "Exhaust, Move all cards in hand and Discard Pile to Draw Pile, Draw 5"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Select up to 5 cardsin Discard Pile, then move to top of Draw Pile"},
+            {"cost": 0,"type": "Skill", "effect": "Draw 3, If the total Cost of those cards is 4 or less, Discard all"}
         ],
         "Dice Trick": [
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""}]
+            {"cost": 2,"type": "Attack", "effect": "410% Damage, Decrease Morale by 1 for 1 turn, Decrease Cost by the number of completed Quests"},
+            {"cost": 2,"type": "Attack", "effect": "342% Damage to all enemies, Decrease Morale by 1 for 1 turn, Decrease Cost by the number of completed Quests"},
+            {"cost": 0,"type": "Attack", "effect": "91% Damage, +80% Damage Amount for each completed Quest (max 5 times)"},
+            {"cost": 2,"type": "Upgrade", "effect": "Unique, When using Quest Card, Heal 100%, 100 Fixed Damage to a random enemy"},
+            {"cost": 2,"type": "Upgrade", "effect": "Unique, At the start of the turn, create 1 empoweredQuest card(s)"}]
     },
     "Owen": {
         "Wind Charge": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Retrieve, Add 1 Hit(s) to the next Attack Card of this unit that is used"},
+            {"cost": 1,"type": "Skill", "effect": "Add 1 Hits to the next Attack Card used, Decrease Damage Amount by 25%"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, When this unit's Attack Card is used, 30% chance to add 1 Hit(s)"},
+            {"cost": 1,"type": "Skill", "effect": "Unique, Exhaust, Activate next used Skill Card 1 more time(s)"},
+            {"cost": 1,"type": "Skill", "effect": "Add 3 Hits to the next Attack Card of this unit used, Decrease Amount by 50%"}
         ],
         "Wind Slash": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""},
-            {"cost": 2,"type": "Upgrade", "effect": ""},
-            {"cost": 2,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "254% Damage to all enemies"},
+            {"cost": 2,"type": "Attack", "effect": "138% Damage x 3"},
+            {"cost": 2,"type": "Attack", "effect": "254% Damage to all enemies, Defeat: Activate this card 1 more time"},
+            {"cost": 2,"type": "Upgrade", "effect": "At the start of the turn, decrease AP by 1, At the end of the turn, 240% Damage to all enemies"},
+            {"cost": 2,"type": "Attack", "effect": "254% Damage to all enemies, Increase Tenacity Damage by 100%"}
         ],
         "Break Armor": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 0,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "223% Damage, Decrease Fortitude by 4 for 1 turn"},
+            {"cost": 0,"type": "Attack", "effect": "148% Damage, 2 Vulnerable"},
+            {"cost": 1,"type": "Attack", "effect": "223% Damage, 2 Vulnerable, When the target is in a Vulnerable state, increase Damage Amount by +30%"},
+            {"cost": 1,"type": "Attack", "effect": "223% Damage, 2 Vulnerable, If the target has Shield, increase Damage Amount by 30%"},
+            {"cost": 1,"type": "Attack", "effect": "148% Damage, 3 Vulnerable, When using Wind Charge, move this card from Discard Pile to hand"}
         ],
         "Wind Riding": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""}]
+            {"cost": 1,"type": "Skill", "effect": "223% Shield, Move 2 owned card(s) from Discard Pile to hand"},
+            {"cost": 1,"type": "Upgrade", "effect": "When using Wind Charge, 120% Shield, 120% Damage to all enemies"},
+            {"cost": 1,"type": "Skill", "effect": "159% Shield Add 1 Hit(s) to next Attack Card of this unit used"},
+            {"cost": 1,"type": "Skill", "effect": "233% Shield, 3 Damage Reduction"},
+            {"cost": 1,"type": "Skill", "effect": "233% Shield, If used Wind Charge this turn, activate this card 1 more time"}]
     },
     "Rei": {
         "Strike of Darkness": [
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Attack", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Attack", "effect": "Lead, 183% Damage, Increase Damage Amount of Basic Attack Cards by 150% for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "427% Damage, Decrease Damage Amount by 20% for 1 turn"},
+            {"cost": 1,"type": "Attack", "effect": "Lead, 183% Damage, Discard all Basic Cards, add 1 Hit for each"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Increase Damage Amount of Basic Attack Cards by 80%"},
+            {"cost": 0,"type": "Skill", "effect": "Retain, Activate all Basic Cards in hand"}
         ],
         "Resonating Darkness": [
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, +60% Damage Amount of cards with Cost 1"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, +40% Damage Amount of Void card"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, +40% to Damage, Shield Gain, and Heal Amounts of 1-cost cards"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, +40% Damage Amount of cards with Cost 1 or less"},
+            {"cost": 0,"type": "Skill", "effect": "For 1 turn, +80% Damage Amount of cards with Cost 1"}
         ],
         "Snack Time": [
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""},
-            {"cost": 0,"type": "Skill", "effect": ""}
+            {"cost": 0,"type": "Skill", "effect": "Exhaust 2, Choose 1 cards(s) in hand to Exhaust, Heal 244%, Draw 1"},
+            {"cost": 0,"type": "Skill", "effect": "Retain, Exhaust, Heal 244%, Draw 2"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Heal 183%, Select and Exhaust up to 2 card(s) in hand, then Draw for each Exhausted"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Heal 183%, Select and Exhaust up to 1 card(s) in Draw Pile, then Draw for each Exhausted"},
+            {"cost": 0,"type": "Skill", "effect": "Exhaust, Heal 183%, Select and Exhaust up to 2 card(s) in hand, Select and Draw 1 Void card(s)"}
         ],
         "Dark Condensation": [
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Skill", "effect": ""},
-            {"cost": 1,"type": "Upgrade", "effect": ""}
+            {"cost": 1,"type": "Skill", "effect": "Choose 1 Attack Card(s) in hand, +150% Damage Amount for 1 turn until used"},
+            {"cost": 1,"type": "Skill", "effect": "Choose 1 Attack Card(s) in hand, +100% Damage Amount, Shield Gain, and Heal Amount for 1 turn until used"},
+            {"cost": 1,"type": "Skill", "effect": "For 1 turn, +50% Damage Amount of Void Attack Cards"},
+            {"cost": 1,"type": "Skill", "effect": "Choose 1 Attack Card(s), +100% Damage Amount until used"},
+            {"cost": 1,"type": "Upgrade", "effect": "Choose 1 Attack Card(s) in hand, +50% Damage Amount"}
         ]
     }
 }
