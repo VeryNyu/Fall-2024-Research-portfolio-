@@ -1,15 +1,30 @@
 {
+    "Renoa": {
+        "id": 1
+    },
+    "Mika": {
+        "id": 2
+    },
+    "Rei": {
+        "id": 3
+    },
+    "Tressa": {
+        "id": 4
+    },
+    "Owen": {
+        "id": 5
+    },
+    "Beryl": {
+        "id": 6
+    },
+    "Maribell": {
+        "id": 7
+    },
     "Luke": {
         "id": 8
     },
-    "Khalipe": {
-        "id": 12
-    },
-    "Magna": {
-        "id": 13
-    },
-    "Rin": {
-        "id": 17
+    "Lucas": {
+        "id": 9
     },
     "Orlea": {
         "id": 10
@@ -17,17 +32,38 @@
     "Mei Lin": {
         "id": 11
     },
+    "Khalipe": {
+        "id": 12
+    },
+    "Magna": {
+        "id": 13
+    },
+    "Selena": {
+        "id": 14
+    },
     "Veronica": {
         "id": 15
-    },
-    "Renoa": {
-        "id": 1
     },
     "Hugo": {
         "id": 16
     },
-    "Narja": {
-        "id": 26
+    "Rin": {
+        "id": 17
+    },
+    "Kayron": {
+        "id": 18
+    },
+    "Nia": {
+        "id": 19
+    },
+    "Amir": {
+        "id": 20
+    },
+    "Cassius": {
+        "id": 21
+    },
+    "Haru": {
+        "id": 22
     },
     "Yuki": {
         "id": 23
@@ -35,52 +71,19 @@
     "Chizuru": {
         "id": 24
     },
-    "Haru": {
-        "id": 22
+    "Serenial": {
+        "id": 25
     },
-    "Kayron": {
-        "id": 18
+    "Narja": {
+        "id": 26
     },
     "Nine": {
         "id": 27
     },
-    "Serenial": {
-        "id": 25
-    },
     "Tiphera": {
         "id": 28
     },
-    "Nia": {
-        "id": 19
-    },
-    "Selena": {
-        "id": 14
-    },
-    "Tressa": {
-        "id": 4
-    },
-    "Amir": {
-        "id": 20
-    },
-    "Lucas": {
-        "id": 9
-    },
-    "Maribell": {
-        "id": 7
-    },
-    "Mika": {
-        "id": 2
-    },
-    "Beryl": {
-        "id": 6
-    },
-    "Cassius": {
-        "id": 21
-    },
-    "Owen": {
-        "id": 5
-    },
-    "Rei": {
-        "id": 3
+    "Rita": {
+        "id": 29
     }
 }
