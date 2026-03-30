@@ -113,12 +113,12 @@ def start_epiphany():
     show_epiphany_page(selected_character, selected_card, options)
 
 
-# ─────────────────────────── Epiphany Page ───────────────────────
+#  Epiphany Page 
 def show_epiphany_page(character: str, card_name: str, options: list[dict]):
     outer = CTkFrame(app)
     outer.pack(fill="both", expand=True, padx=20, pady=20)
 
-    # ── Header ──
+    # Header
     header_text = (
         f"You are playing  {character}  and triggered an upgrade\n"
         f"for  \"{card_name}\".\n\nHere are your choices:"
