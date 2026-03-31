@@ -1,8 +1,8 @@
-from os import path
+from os.path import dirname, join, abspath
 import json, pandas
 import random
 
-FILE_PATH = "AIED/data/"
+FILE_PATH = dirname(abspath(__file__))
 
 def load_all_json():
     files = dict()
@@ -15,12 +15,12 @@ def load_all_json():
 
 
 def load_json(filename):
-    with open(path.join(FILE_PATH, filename), "r") as f:
+    with open(join(FILE_PATH, filename), "r") as f:
         return json.load(f)
 
 
 def load_csv(filename):
-    return pandas.read_csv(path.join(FILE_PATH, filename),
+    return pandas.read_csv(join(FILE_PATH, filename),
         header=None,
         engine="python",
         on_bad_lines="skip"

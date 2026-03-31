@@ -36,7 +36,7 @@
             {"cost": 3,"type": "Attack", "effect": "Celestial, Retain, 198% Defense-Based Damage to all enemies, 1 Silver Veil, Retain: 110% Shield"},
             {"cost": 3,"type": "Attack", "effect": "Celestial, Retain, 198% Defense-Based Damage to all enemies, 1 Silver Veil, 40% Shield for each card in hand"}
         ],
-        "Greatsword Aquils": [
+        "Greatsword Aquila": [
             {"cost": 1,"type": "Attack", "effect": "231% Defense-Based Damage to all enemies, If Vulture-Ejection is in hand, increase Cost by 1, +120% Damage Amount"},
             {"cost": 2,"type": "Attack", "effect": "242% Defense-Based Damage to all enemies, When used, +40% Damage Amount"},
             {"cost": 2,"type": "Attack", "effect": "242% Defense-Based Damage to all enemies, If Vulture-Ejection is in hand, 1 Silver Veil"},
