@@ -370,7 +370,6 @@ def show_window3():
     epi_scroll.grid(row=1, column=0, sticky="nsew", padx=8, pady=(0, 8))
 
     choice_frames: list[CTkFrame] = []
-    chosen_idx   = [None]   # list so closure can mutate it
     selected_indices = []
 
     def _pick(idx: int):
@@ -503,7 +502,10 @@ def show_window3():
             feedback = call_ai(
                 selected_epiphanies, reason,
             )
-            _set_ai(feedback)
+            try:
+                _set_ai(feedback)
+            except:
+                return
             submit_btn.configure(state="normal", text="Submit")
 
         threading.Thread(target=_fetch, daemon=True).start()
