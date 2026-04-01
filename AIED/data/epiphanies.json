@@ -813,5 +813,35 @@
             {"cost": 1,"type": "Skill", "effect": "Choose 1 Attack Card(s), +100% Damage Amount until used"},
             {"cost": 1,"type": "Upgrade", "effect": "Choose 1 Attack Card(s) in hand, +50% Damage Amount"}
         ]
+    },
+    "Rita": {
+        "Chrono Archon": [
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When a card is activated, 1 Chronicle for each Cost of that card, When Chronal Ascension is removed, 3 Chronicle"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When a card is activated, At the end of the turn, 100% Damage to a random enemy for each Chronal Ascension"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When a card is Exhausted, 1 Chronicle"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When a card is activated, 1 Chronicle for each Cost of that card, When a card is Discarded, 1 Chronicle"},
+            {"cost": 1,"type": "Upgrade", "effect": "Unique, Initiation, When a card is activated, 1 Chronicle for each Cost of that card, When a Retain effect is activated, 1 Chronicle"}
+        ],
+        "Time Axis Collapse": [
+            {"cost": 2,"type": "Attack", "effect": "459% Damage, Increase Damage Amount by 20% for each Cost of carrds in hand (max 200%)"},
+            {"cost": 1,"type": "Attack", "effect": "306% Damage, Increase Damage Amount by 30% for each 1-Cost or lower card in hand"},
+            {"cost": 3,"type": "Skill", "effect": "Increase Damage Amount of the next 3 Attack Card(s) of this unit used by 100%"},
+            {"cost": 3,"type": "Attack", "effect": "Retain, 408% Damage, 2 Vulnerable, When Chronal Ascension is gained, activate this card if in hand"},
+            {"cost": 2,"type": "Attack", "effect": "255% Damage, Change cost of all Fate Imprint in hand to 4"}
+        ],
+        "Future Decreed": [
+            {"cost": 0,"type": "Skill", "effect": "Increase Cost of 1 2-Cost or lower card(s) by 1 until used, then activate 1 random 3-Cost card(s)"},
+            {"cost": 0,"type": "Skill", "effect": "Activate 1 random 3-Cost Attack Card(s) in hand"},
+            {"cost": 3,"type": "Skill", "effect": "Activate 1 random 3-Cost Attack Card(s) in Draw Pile"},
+            {"cost": 2,"type": "Skill", "effect": "Activate 2 random 2-Cost Attack Card(s) in hand"},
+            {"cost": 3,"type": "Upgrade", "effect": "Unique, When a card whose Cost is increased is used manually, 300% Damage to a random enemy"}
+        ],
+        "Chrono Circle": [
+            {"cost": 1,"type": "Skill", "effect": "Create 3 Fate Imprint"},
+            {"cost": 1,"type": "Skill", "effect": "Retain, Create 2 Fate Imprint, Retain: Create 1 Fate Imprint"},
+            {"cost": 2,"type": "Upgrade", "effect": "Unique, When Chronal Ascension is gained, move all Basic Cards of this unit to hand"},
+            {"cost": 1,"type": "Skill", "effect": "Select and Exhaust 1 Exhaust card(s) from all cards, then create Fate Imprint for each Cost of that card"},
+            {"cost": 3,"type": "Upgrade", "effect": "Unique, When Chronal Ascension is gained, Draw 3 2-Cost Attack card(s)"}
+        ]
     }
 }

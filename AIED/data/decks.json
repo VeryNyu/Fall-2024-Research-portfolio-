@@ -336,5 +336,17 @@
             "Snack Time",
             "Dark Condensation",
             "Predator's Blade"
+        ]    },
+    "Rita": {
+        "skill" : "Hour of Glory",
+        "cards": [
+            "Time Acceleration",
+            "Time Acceleration",
+            "Rewind",
+            "Chrono Archon",
+            "Time Axis Collapse",
+            "Future Decreed",
+            "Chrono Circle",
+            "Time Paradox",
         ]    }
 }

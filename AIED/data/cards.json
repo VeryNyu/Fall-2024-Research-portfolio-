@@ -1482,5 +1482,56 @@
             "effects": "305% Damage, For 1 turn, 4 Morale",
             "epiphanies": false
         }
+    ],
+    "Rita":[
+        {
+            "name": "Time Acceleration",
+            "cost": 3,
+            "type": "Attack",
+            "effects": "418% Damage",
+            "epiphanies": false
+        },
+        {
+            "name": "Rewind",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Heal 102%",
+            "epiphanies": false
+        },
+        {
+            "name": "Chrono Archon",
+            "cost": 1,
+            "type": "Upgrade",
+            "effects": "Unique, Initiation, When a card is activated, 1 Chronicle for each Cost of that card",
+            "epiphanies": true
+        },
+        {
+            "name": "Time Axis Collapse",
+            "cost": 2,
+            "type": "Attack",
+            "effects": "306% Damage, Increase Damage Amount by 20% for each Cost of cards in hand (max 200%)",
+            "epiphanies": true
+        },
+        {
+            "name": "Future Decreed",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Increase Cost of 1 2-Cost or lower card(s) by 1 until used, then activate 1 random 3-Cost card(s)",
+            "epiphanies": true
+        },
+        {
+            "name": "Chrono Circle",
+            "cost": 1,
+            "type": "Skill",
+            "effects": "Create 2 Fate Imprint",
+            "epiphanies": true
+        },
+        {
+            "name": "Time Paradox",
+            "cost": 0,
+            "type": "Unique, Decrease all Chronicle, Gain Chronal Ascension for each decreased",
+            "effects": "",
+            "epiphanies": false
+        }
     ]
 }
