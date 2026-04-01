@@ -22,7 +22,7 @@ DECKS_DATA    = DH.load_json("decks.json")         # {char: {skill, cards:[...]}
 # ─── Session state ────────────────────────────────────────────────────────────
 selected_character : str  | None = None
 selected_card_name : str  | None = None
-selected_epiphanies  : dict | None = None
+selected_epiphany  : dict | None = None
 
 # ─── Shared colours ───────────────────────────────────────────────────────────
 TYPE_COLORS = {
@@ -44,17 +44,20 @@ def get_epiphany_options(character: str, card_name: str) -> list[dict]:
     return EPIPHANY_DATA.get(character, {}).get(card_name, [])
 
 
-def call_ai(epiphanies: dict,
+def call_ai(character: str, card_name: str, epiphany: dict,
             user_reason: str) -> str:
     """Send the player's choice + their reasoning to the AI backend."""
     prompt = (
-        f"You will receive a list of dictionary objects, where each dictionary contains a details of a potential card upgrade.\n"
-        f"Your task is to analyze the effects and determine which one is the best upgrade of the given choices.\n"
-        f"The user should provide a decision on which card they would consider the best, and why they think so.\n"
-        f"Consider their explanation, and provide helpful feedback on their explanation, and if necessary, display your reasoning as to why another card could be considered the best instead."
-        f"Here are the options:\n"
-        f"{epiphanies}\n"
-        )
+        f"In a tactical card game, the character '{character}' triggered an epiphany "
+        f"upgrade for the card '{card_name}'.\n\n"
+        f"The player chose:\n"
+        f"  Effect : {epiphany.get('effect', '?')}\n"
+        f"  Type   : {epiphany.get('type', '?')}\n"
+        f"  Cost   : {epiphany.get('cost', '?')}\n\n"
+        f"The player explained their decision as follows:\n\"{user_reason}\"\n\n"
+        f"Evaluate the player's reasoning and give concise tactical feedback on "
+        f"whether this is a strong choice and how to play it effectively."
+    )
     try:
         r = requests.post(
             BACKEND_URL,
@@ -99,10 +102,10 @@ def _progress_bar(parent: CTkFrame, step: int):
 
 def show_window1():
     """Landing page: pick a combatant, then press Start."""
-    global selected_character, selected_card_name, selected_epiphanies
+    global selected_character, selected_card_name, selected_epiphany
     selected_character = None
     selected_card_name = None
-    selected_epiphanies  = None
+    selected_epiphany  = None
 
     page = CTkFrame(app)
     page.pack(fill="both", expand=True)
@@ -311,7 +314,7 @@ def show_window2():
         show_window3()
 
     CTkButton(
-        nav, text="Next  →", width=160, height=40,
+        nav, text="Finish  →", width=160, height=40,
         font=CTkFont(size=13, weight="bold"),
         fg_color="#2b5ea0", hover_color="#3a7ad0",
         command=on_finish,
@@ -362,7 +365,7 @@ def show_window3():
     left.grid_columnconfigure(0, weight=1)
 
     CTkLabel(
-        left, text="Choose three Upgrades",
+        left, text="Choose an Upgrade",
         font=CTkFont(size=14, weight="bold"),
     ).grid(row=0, column=0, pady=(10, 4))
 
@@ -370,25 +373,16 @@ def show_window3():
     epi_scroll.grid(row=1, column=0, sticky="nsew", padx=8, pady=(0, 8))
 
     choice_frames: list[CTkFrame] = []
-    selected_indices = []
+    chosen_idx   = [None]   # list so closure can mutate it
 
     def _pick(idx: int):
-        global selected_epiphanies
-
-        if idx in selected_indices:
-            selected_indices.remove(idx)
-        elif len(selected_indices) < 3:
-            selected_indices.append(idx)
-        else:
-            return
-
-        selected_epiphanies = [options[idx] for i in selected_indices]
-        
+        global selected_epiphany
+        selected_epiphany = options[idx]
+        chosen_idx[0]     = idx
         for i, cf in enumerate(choice_frames):
-            if i in selected_indices:
-                cf.configure(fg_color="#1f5c38")
-            else:
-                cf.configure(fg_color=("#d8d8e8", "#2e2e3e"))
+            cf.configure(
+                fg_color="#1f5c38" if i == idx else ("#d8d8e8", "#2e2e3e")
+            )
 
     for i, opt in enumerate(options):
         tc    = TYPE_COLORS.get(opt.get("type", ""), "#3a3a3a")
@@ -481,10 +475,10 @@ def show_window3():
 
     # Submit button
     def on_submit():
-        if len(selected_indices) < 3:
+        if chosen_idx[0] is None:
             messagebox.showerror(
-                "Not enough Upgrades Selected",
-                "Please select three of the upgrade options on the left first.",
+                "No Upgrade Selected",
+                "Please select one of the upgrade options on the left first.",
             )
             return
         reason = reason_box.get("1.0", "end").strip()
@@ -500,12 +494,10 @@ def show_window3():
 
         def _fetch():
             feedback = call_ai(
-                selected_epiphanies, reason,
+                selected_character, selected_card_name,
+                selected_epiphany, reason,
             )
-            try:
-                _set_ai(feedback)
-            except:
-                return
+            _set_ai(feedback)
             submit_btn.configure(state="normal", text="Submit")
 
         threading.Thread(target=_fetch, daemon=True).start()

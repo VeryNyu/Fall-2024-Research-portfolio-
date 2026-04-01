@@ -8,7 +8,7 @@
             "name": "Python Debugger: Current File",
             "type": "debugpy",
             "request": "launch",
-            "program": "C:/Users/tavo_/Documents/School/AIED/Richard's Project/Fall-2024-Research-portfolio-/AIED/main.py",
+            "program": "${file}",
             "console": "integratedTerminal"
         }
     ]
