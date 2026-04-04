@@ -2,13 +2,13 @@ from os import path
 import json, pandas
 import random
 
-FILE_PATH = "AIED/data/"
+FILE_PATH = path.dirname(path.abspath(__file__))
 
 def load_all_json():
     files = dict()
 
     for fileName in ["combatants", "decks", "skills", "cards", "epiphanies"]:
-        with open(f"AIED/data/{fileName}.json") as f:
+        with open(f"{FILE_PATH}/{fileName}.json") as f:
             files[f"{fileName}_data"] = json.load(f)
     
     return files

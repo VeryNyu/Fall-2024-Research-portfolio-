@@ -1,6 +1,97 @@
 {
+    "Renoa": {
+        "skill": "Black Throne",
+        "cards": [
+            "Annihilation Shot",
+            "Annihilation Shot",
+            "Black Veil",
+            "Echo of Sorrow",
+            "Instant Judgement",
+            "Ballad of Pitch Black",
+            "Flower of Devoured Fate",
+            "Last-Ditch Assault"
+        ]
+    },
+    "Mika": {
+        "skill": "Surge",
+        "cards": [
+            "Water Arrow",
+            "Water Barrier",
+            "Water Barrier",
+            "Source of Water",
+            "Blessing of Waves",
+            "Tactical Analysis",
+            "Whirlpool",
+            "Deluge"
+        ]
+    },
+    "Rei": {
+        "skill": "Final Shadow",
+        "cards": [
+            "Dark Blade",
+            "Dark Blade",
+            "Material Regeneration",
+            "Strike of Darkness",
+            "Resonating Darkness",
+            "Snack Time",
+            "Dark Condensation",
+            "Predator's Blade"
+        ]
+    },
+    "Tressa": {
+        "skill": "Wave of Darkness",
+        "cards": [
+            "Dagger Throw",
+            "Dagger Throw",
+            "Touch of Darkness",
+            "Unsheathe Dagger",
+            "Curse",
+            "Shadow Reload",
+            "Vital Attack",
+            "Cursed Gouge"
+        ]
+    },
+    "Owen": {
+        "skill": "Raging Storm",
+        "cards": [
+            "Downward Cut",
+            "Downward Cut",
+            "Weapon Block",
+            "Wind Charge",
+            "Wind Slash",
+            "Break Armor",
+            "Wind Riding",
+            "Gale Strike"
+        ]
+    },
+    "Beryl": {
+        "skill": "Max Output Charged Shot",
+        "cards": [
+            "Launcher",
+            "Charge Launcher",
+            "Barrier",
+            "Opening Found",
+            "Charged Shot",
+            "Guilty Pleasure",
+            "Unlimited Firepower",
+            "Heavy Weapons Specialist"
+        ]
+    },
+    "Maribell": {
+        "skill": "Unbreakable",
+        "cards": [
+            "Shelter Kick",
+            "Shelter Defense",
+            "Shelter Hold",
+            "Resolute Blitz",
+            "Maribell Shelter MK.II",
+            "Wolves' Dome",
+            "Oh... I see",
+            "Shelter Strike"
+        ]
+    },
     "Luke": {
-        "skill" : "Lethal Design",
+        "skill": "Lethal Design",
         "cards": [
             "Single Shot",
             "Single Shot",
@@ -12,44 +103,21 @@
             "Finisher Round"
         ]
     },
-    "Khalipe": {
-        "skill" : "Charisma of Resolve",
+    "Lucas": {
+        "skill": "Full Burst",
         "cards": [
-            "Lashing",
-            "Upward Slash",
-            "Tyr's Vow",
-            "Vulture Ejection",
-            "Greatsword Aquila",
-            "Overpower",
-            "Rally",
-            "Absolute Protection"
-        ]    },
-    "Magna": {
-        "skill" : "Absolute Zero",
-        "cards": [
-            "Frozen Fist",
-            "Frost Shield",
-            "Frost Shield",
-            "Ice Fragment",
-            "Glacial Iron Fist",
-            "Ice Wall",
-            "Frost Charge",
-            "Storm of Bitter Cold"
-        ]    },
-    "Rin": {
-        "skill" : "Dark Mist Secret Art: Slash",
-        "cards": [
-            "Dark Mist Sword: First Form",
-            "Dark Mist Sword: Third Form",
-            "Protection",
-            "Drawing Slash",
-            "Dark Mist Secret Art: Destruction",
-            "Dark Mist Secret Art: Annihilation",
-            "Dark Mist Inner Art",
-            "Dark Mist Secret Art: Black Dance"
-        ]    },
+            "Machine Gun",
+            "Machine Gun",
+            "Shielding Incendiary Bomb",
+            "Extended Magazine",
+            "S.S.S.",
+            "Flame Thrower",
+            "Flashbang",
+            "R.P.G-7"
+        ]
+    },
     "Orlea": {
-        "skill" : "Salvation",
+        "skill": "Salvation",
         "cards": [
             "Attack, My Minions",
             "Healing of Light",
@@ -59,9 +127,10 @@
             "Annoying",
             "Growing Creature",
             "Will of Light"
-        ]    },
+        ]
+    },
     "Mei Lin": {
-        "skill" : "Heavenly Flame Dragon",
+        "skill": "Heavenly Flame Dragon",
         "cards": [
             "Strike",
             "Strike",
@@ -71,153 +140,36 @@
             "Unity of Attack and Defense",
             "Spirit of the Aromata",
             "Flame Dragon's Sovereignty"
-        ]    },
-    "Veronica": {
-        "skill" : "Hunting Time",
+        ]
+    },
+    "Khalipe": {
+        "skill": "Charisma of Resolve",
         "cards": [
-            "Rapid Fire",
-            "Rapid Fire",
-            "Illusion of Golden Daffodils",
-            "Firing Preperation",
-            "Repose",
-            "Pendant of Resolution",
-            "Sir Kowalski",
-            "Bombardment Prep"
-        ]    },
-    "Renoa": {
-        "skill" : "Black Throne",
+            "Lashing",
+            "Upward Slash",
+            "Tyr's Vow",
+            "Vulture Ejection",
+            "Greatsword Aquila",
+            "Overpower",
+            "Rally",
+            "Absolute Protection"
+        ]
+    },
+    "Magna": {
+        "skill": "Absolute Zero",
         "cards": [
-            "Annihilation Shot",
-            "Annihilation Shot",
-            "Black Veil",
-            "Echo of Sorrow",
-            "Instant Judgement",
-            "Ballad of Pitch Black",
-            "Flower of Devoured Fate",
-            "Last-Ditch Assault"
-        ]    },
-    "Hugo": {
-        "skill" : "Last Resort",
-        "cards": [
-            "Throw Dagger",
-            "Throw Dagger",
-            "Defense System",
-            "Hunting Instincts",
-            "Fan of Daggers",
-            "Quick Fix",
-            "Dingo Howling",
-            "Fixer's Approach"
-        ]    },
-    "Yuki": {
-        "skill" : "Skyscraper Cleave",
-        "cards": [
-            "Longsword Slash",
-            "Rapid Slash",
-            "Flowing Parry",
-            "Prepare to Subdue",
-            "Flash Slash",
-            "Trickery Strike",
-            "Freezing Blade",
-            "Iceberg Cleave"
-        ]    },
-    "Chizuru": {
-        "skill" : "Moonlight of High Tide",
-        "cards": [
-            "Moonslash",
-            "Moonslash",
-            "Spiritflame's Ward",
-            "Karmix Flames",
-            "Tsukuyomi",
-            "Bound At Dusk",
-            "Oni Hunt",
-            "Shadow of the Moon"
-        ]    },
-    "Haru": {
-        "skill" : "Power Strike",
-        "cards": [
-            "Anchor",
-            "Power Anchor",
-            "Anchor Drop",
-            "Anchor Shot",
-            "Anchor Pointer",
-            "Power Charge",
-            "Charge Energy",
-            "Lift Anchor"
-        ]    },
-    "Kayron": {
-        "skill" : "Rift of Nothingness",
-        "cards": [
-            "Elimination",
-            "Elimination",
-            "Sphere",
-            "Echo of Futility",
-            "Brand of Annihilation",
-            "Black Hole",
-            "Oath of Vanity",
-            "Echoes of True Abyss"
-        ]    },
-    "Nine": {
-        "skill" : "Reflection Zero",
-        "cards": [
-            "Slash",
-            "Slash",
-            "Back-Edge Parry",
-            "Hew",
-            "Experienced Strike",
-            "Fatal Strike",
-            "Counterblade",
-            "Fighting Spirit"
-        ]    },
-    "Serenial": {
-        "skill" : "Death Halo",
-        "cards": [
-            "Pulse Fire",
-            "Pulse Fire",
-            "Magnetic Field",
-            "Homing Laser",
-            "Plasma Missile",
-            "Shining Core",
-            "Cobalt Light",
-            "Pale Shooting Star"
-        ]    },
-    "Tiphera": {
-        "skill" : "Archetype Resonance",
-        "cards": [
-            "Matter Disintegration",
-            "Barrier Deployment",
-            "Barrier Deployment",
-            "Quantum Seed",
-            "Form Convergence",
-            "Creation and Destruction",
-            "Dual Creation",
-            "Event Horizon"
-        ]    },
-    "Narja": {
-        "skill" : "Predator's Hunting Method",
-        "cards": [
-            "NA: Attack Response",
-            "NA: Defense Response",
-            "NA: Defense Response",
-            "Shackles of Hunger",
-            "Bottomless Hunger",
-            "Voluntary Control",
-            "Domain of Voracity",
-            "Mealtime"
-        ]    },
-    "Nia": {
-        "skill" : "Rock and Roll",
-        "cards": [
-            "Stroke",
-            "Amp Therapy",
-            "Amp Therapy",
-            "G Chord",
-            "Mute Accent",
-            "Soul Rip",
-            "Adagio",
-            "Nia's Curiosity"
-        ]    },
+            "Frozen Fist",
+            "Frost Shield",
+            "Frost Shield",
+            "Ice Fragment",
+            "Glacial Iron Fist",
+            "Ice Wall",
+            "Frost Charge",
+            "Storm of Bitter Cold"
+        ]
+    },
     "Selena": {
-        "skill" : "Final Shot",
+        "skill": "Final Shot",
         "cards": [
             "Engagement Fire",
             "Engagement Fire",
@@ -229,20 +181,73 @@
             "Sniper's Domain"
         ]
     },
-    "Tressa": {
-        "skill" : "Wave of Darkness",
+    "Veronica": {
+        "skill": "Hunting Time",
         "cards": [
-            "Dagger Throw",
-            "Dagger Throw",
-            "Touch of Darkness",
-            "Unsheathe Dagger",
-            "Curse",
-            "Shadow Reload",
-            "Vital Attack",
-            "Cursed Gouge"
-        ]    },
+            "Rapid Fire",
+            "Rapid Fire",
+            "Illusion of Golden Daffodils",
+            "Firing Preparation",
+            "Repose",
+            "Pendant of Resolution",
+            "Sir Kowalski",
+            "Bombardment Prep"
+        ]
+    },
+    "Hugo": {
+        "skill": "Last Resort",
+        "cards": [
+            "Throw Dagger",
+            "Throw Dagger",
+            "Defense System",
+            "Hunting Instincts",
+            "Fan of Daggers",
+            "Quick Fix",
+            "Dingo Howling",
+            "Fixer's Approach"
+        ]
+    },
+    "Rin": {
+        "skill": "Dark Mist Secret Art: Slash",
+        "cards": [
+            "Dark Mist Sword: First Form",
+            "Dark Mist Sword: Third Form",
+            "Protection",
+            "Drawing Slash",
+            "Dark Mist Secret Art: Destruction",
+            "Dark Mist Secret Art: Annihilation",
+            "Dark Mist Inner Art",
+            "Dark Mist Secret Art: Black Dance"
+        ]
+    },
+    "Kayron": {
+        "skill": "Rift of Nothingness",
+        "cards": [
+            "Elimination",
+            "Elimination",
+            "Sphere",
+            "Echo of Futility",
+            "Brand of Annihilation",
+            "Black Hole",
+            "Oath of Vanity",
+            "Echoes of True Abyss"
+        ]
+    },
+    "Nia": {
+        "skill": "Rock and Roll",
+        "cards": [
+            "Stroke",
+            "Amp Therapy",
+            "Amp Therapy",
+            "G Chord",
+            "Mute Accent",
+            "Soul Rip",
+            "Adagio",
+            "Nia's Curiosity"
+        ]
+    },
     "Amir": {
-        "skill" : "Steel Resolve",
+        "skill": "Steel Resolve",
         "cards": [
             "Rapier",
             "Rapier",
@@ -252,57 +257,10 @@
             "Metal Extraction",
             "Full Metal Hurricane",
             "Iron Skin"
-        ]    },
-    "Lucas": {
-        "skill" : "Full Burst",
-        "cards": [
-            "Machine Gun",
-            "Machine Gun",
-            "Shielding Incendiary Bomb",
-            "Extended Magazine",
-            "S.S.S.",
-            "Flame Thrower",
-            "Flashbang",
-            "R.P.G-7"
-        ]    },
-    "Maribell": {
-        "skill" : "Unbreakable",
-        "cards": [
-            "Shelter Kick",
-            "Shelter Defense",
-            "Shelter Hold",
-            "Resolute Blitz",
-            "Maribell Shelter MK.II",
-            "Wolves' Dome",
-            "Oh... I see",
-            "Shelter Strike"
-        ]    },
-    "Mika": {
-        "skill" : "Surge",
-        "cards": [
-            "Water Arrow",
-            "Water Barrier",
-            "Water Barrier",
-            "Source of Water",
-            "Blessing of Waves",
-            "Tactical Analysis",
-            "Whirlpool",
-            "Deluge"
-        ]    },
-    "Beryl": {
-        "skill" : "Max Output Charged Shot",
-        "cards": [
-            "Launcher",
-            "Charge Launcher",
-            "Barrier",
-            "Opening Found",
-            "Charged Shot",
-            "Guilty Pleasure",
-            "Unlimited Firepower",
-            "Heavy Weapons Specialist"
-        ]    },
+        ]
+    },
     "Cassius": {
-        "skill" : "Death Trick",
+        "skill": "Death Trick",
         "cards": [
             "Cards",
             "Wild Card",
@@ -312,33 +270,101 @@
             "Shuffle",
             "Dice Trick",
             "Joker"
-        ]    },
-    "Owen": {
-        "skill" : "Raging Storm",
+        ]
+    },
+    "Haru": {
+        "skill": "Power Strike",
         "cards": [
-            "Downward Cut",
-            "Downward Cut",
-            "Weapon Block",
-            "Wind Charge",
-            "Wind Slash",
-            "Break Armor",
-            "Wind Riding",
-            "Gale Strike"
-        ]    },
-    "Rei": {
-        "skill" : "Final Shadow",
+            "Anchor",
+            "Power Anchor",
+            "Anchor Drop",
+            "Anchor Shot",
+            "Anchor Pointer",
+            "Power Charge",
+            "Charge Energy",
+            "Lift Anchor"
+        ]
+    },
+    "Yuki": {
+        "skill": "Skyscraper Cleave",
         "cards": [
-            "Dark Blade",
-            "Dark Blade",
-            "Material Regeneration",
-            "Strike of Darkness",
-            "Resonating Darkness",
-            "Snack Time",
-            "Dark Condensation",
-            "Predator's Blade"
-        ]    },
+            "Longsword Slash",
+            "Rapid Slash",
+            "Flowing Parry",
+            "Prepare to Subdue",
+            "Flash Slash",
+            "Trickery Strike",
+            "Freezing Blade",
+            "Iceberg Cleave"
+        ]
+    },
+    "Chizuru": {
+        "skill": "Moonlight of High Tide",
+        "cards": [
+            "Moonslash",
+            "Moonslash",
+            "Spiritflame's Ward",
+            "Karmix Flames",
+            "Tsukuyomi",
+            "Bound At Dusk",
+            "Oni Hunt",
+            "Shadow of the Moon"
+        ]
+    },
+    "Serenial": {
+        "skill": "Death Halo",
+        "cards": [
+            "Pulse Fire",
+            "Pulse Fire",
+            "Magnetic Field",
+            "Homing Laser",
+            "Plasma Missile",
+            "Shining Core",
+            "Cobalt Light",
+            "Pale Shooting Star"
+        ]
+    },
+    "Narja": {
+        "skill": "Predator's Hunting Method",
+        "cards": [
+            "NA: Attack Response",
+            "NA: Defense Response",
+            "NA: Defense Response",
+            "Shackles of Hunger",
+            "Bottomless Hunger",
+            "Voluntary Control",
+            "Domain of Voracity",
+            "Mealtime"
+        ]
+    },
+    "Nine": {
+        "skill": "Reflection Zero",
+        "cards": [
+            "Slash",
+            "Slash",
+            "Back-Edge Parry",
+            "Hew",
+            "Experienced Strike",
+            "Fatal Strike",
+            "Counterblade",
+            "Fighting Spirit"
+        ]
+    },
+    "Tiphera": {
+        "skill": "Archetype Resonance",
+        "cards": [
+            "Matter Disintegration",
+            "Barrier Deployment",
+            "Barrier Deployment",
+            "Quantum Seed",
+            "Form Convergence",
+            "Creation and Destruction",
+            "Dual Creation",
+            "Event Horizon"
+        ]
+    },
     "Rita": {
-        "skill" : "Hour of Glory",
+        "skill": "Hour of Glory",
         "cards": [
             "Time Acceleration",
             "Time Acceleration",
@@ -347,6 +373,7 @@
             "Time Axis Collapse",
             "Future Decreed",
             "Chrono Circle",
-            "Time Paradox",
-        ]    }
+            "Time Paradox"
+        ]
+    }
 }
