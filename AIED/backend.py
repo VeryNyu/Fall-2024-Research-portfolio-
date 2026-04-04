@@ -15,76 +15,51 @@ import re
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from openai import OpenAI
+from typing import List, Dict, Tuple
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 app    = Flask(__name__)
 CORS(app)
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# ─── Keyword pre-check ────────────────────────────────────────────────────────
-# If the player's reasoning contains NONE of these words it is flagged as
-# too vague before we even hit the AI — mirrors the datastructures.py pattern.
-# Keys are lowercase substrings of the epiphany effect; values are the concept
-# words we expect a thoughtful player to mention.
-REASONING_KEYWORDS: dict[str, list[str]] = {
-    # Attack upgrades — player should mention damage, hits, or crits
-    "damage":   ["damage", "hit", "crit", "attack", "burst", "pressure"],
-    # Shield / defensive upgrades
-    "shield":   ["shield", "block", "defend", "protect", "sustain", "tank"],
-    # Draw / hand-size upgrades
-    "draw":     ["draw", "hand", "cycle", "card", "combo"],
-    # Cost-reduction upgrades
-    "cost":     ["cost", "energy", "mana", "cheap", "free", "efficient"],
-    # Buff / status upgrades
-    "vulnerable":["vulnerable", "weaken", "debuff", "status", "setup"],
-    "counterattack":["counter", "react", "retaliate", "punish"],
-    # Utility / hybrid (fallback — matches anything with an explanation)
-    "retrieve": ["retrieve", "recycle", "reuse", "discard", "exhaust"],
-    "exhaust":  ["exhaust", "once", "powerful", "big", "nuke"],
-}
 
-# Minimum word count for a reasoning answer to be considered non-trivial
 MIN_WORD_COUNT = 6
+MIN_BIGRAM_MATCHES = 2
 
 
-def _check_reasoning_quality(effect: str, student_input: str) -> tuple[bool, str]:
-    """
-    Returns (passes: bool, hint: str).
-    Mirrors check_manual_correct() from datastructures.py.
-    Checks:
-      1. Answer is long enough to be a real explanation.
-      2. At least one keyword group relevant to the chosen effect is addressed.
-    """
+def _build_bigrams(text: str) -> set[str]:
+    words = text.lower().split()
+    return {f"{words[i]} {words[i+1]}" for i in range(len(words) - 1)}
+
+
+def _extract_effect_bigrams(options: List[Dict]) -> set[str]:
+    bigrams = set()
+    for obj in options:
+        effect_text = obj.get("effects", "")
+        bigrams.update(_build_bigrams(effect_text))
+    return bigrams
+
+
+def _check_reasoning_quality(options: List[Dict], student_input: str) -> Tuple[bool, str]:
     words = student_input.strip().split()
     if len(words) < MIN_WORD_COUNT:
         return False, (
             "Your explanation is very short. "
-            "Please describe *why* you chose this upgrade and how you plan to use it."
+            "Please describe why you chose this upgrade and how you plan to use it."
         )
 
-    lower_input  = student_input.lower()
-    lower_effect = effect.lower()
+    input_bigrams = _build_bigrams(student_input)
+    effect_bigrams = _extract_effect_bigrams(options)
 
-    # Find which keyword groups are relevant to this effect
-    relevant_groups: list[list[str]] = []
-    for trigger, concepts in REASONING_KEYWORDS.items():
-        if trigger in lower_effect:
-            relevant_groups.append(concepts)
+    matches = input_bigrams.intersection(effect_bigrams)
 
-    # If we matched at least one group, check the student addressed it
-    if relevant_groups:
-        for group in relevant_groups:
-            if any(kw in lower_input for kw in group):
-                return True, ""
-        # None of the relevant concept groups were mentioned
-        joined = ", ".join(relevant_groups[0])   # show first group as hint
-        return False, (
-            f"Your reasoning doesn't seem to address the key mechanic of this upgrade. "
-            f"Think about: {joined}."
-        )
+    if len(matches) >= MIN_BIGRAM_MATCHES:
+        return True, ""
 
-    # No trigger matched — accept any non-trivial answer (generic upgrade)
-    return True, ""
+    return False, (
+        "Your explanation doesn't seem to reference the upgrade's effect clearly. "
+        "Try mentioning what the upgrade actually does and how it helps you."
+    )
 
 
 # ─── OpenAI structured-output evaluation ──────────────────────────────────────
@@ -92,6 +67,7 @@ def _check_reasoning_quality(effect: str, student_input: str) -> tuple[bool, str
 def evaluate_epiphany_decision(
     question: str,
     student_input: str,
+    options: list[Dict],
     examples: list[str] | None = None,
 ) -> dict:
     """
@@ -104,8 +80,6 @@ def evaluate_epiphany_decision(
         examples_text = f"Additional context / examples:\n{chr(10).join(examples)}\n"
 
     prompt = f"""
-You are a tactical advisor for a strategic card game.
-
 {question}
 
 {examples_text}
@@ -158,17 +132,6 @@ Return JSON in this exact format:
     return json.loads(content)
 
 
-#  Extract effect from the prompt string
-
-def _extract_effect(question: str) -> str:
-    """
-    Pull the 'Effect : ...' line out of the prompt that main.py sends.
-    Falls back to the full question string if not found.
-    """
-    match = re.search(r"Effect\s*:\s*(.+)", question)
-    return match.group(1).strip() if match else question
-
-
 # Flask route
 
 @app.route("/chatgpt", methods=["POST"])
@@ -176,14 +139,13 @@ def chatgpt():
     data          = request.get_json(force=True)
     question      = data.get("question", "").strip()
     student_input = data.get("studentInput", "").strip()
+    options       = data.get("options", [])
     examples      = data.get("examples", [])
 
     if not question or not student_input:
         return jsonify({"response": "Error: question and studentInput are required."}), 400
 
-    # Step 1: keyword pre-check (fast, free)
-    effect = _extract_effect(question)
-    passes, hint = _check_reasoning_quality(effect, student_input)
+    passes, hint = _check_reasoning_quality(options, student_input)
 
     if not passes:
         # Return the hint immediately without calling the A
@@ -198,6 +160,7 @@ def chatgpt():
         result = evaluate_epiphany_decision(
             question=question,
             student_input=student_input,
+            options=options,
             examples=examples,
         )
     except Exception as e:

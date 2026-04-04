@@ -58,7 +58,7 @@ def call_ai(epiphanies: dict,
     try:
         r = requests.post(
             BACKEND_URL,
-            json={"question": prompt, "studentInput": user_reason, "examples": []},
+            json={"question": prompt, "studentInput": user_reason, "options": epiphanies, "examples": []},
             timeout=15,
         )
         return r.json().get("response", "No response from AI.")
